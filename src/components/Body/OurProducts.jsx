@@ -10,7 +10,7 @@ import walkthrough from "../Assets/Images/walkthrough.webp";
 import map from "../Assets/Images/map.webp";
 function OurProducts() {
   return (
-    <div className="mt-16">
+    <div className="mt-28">
       <div
         className="bg-contain  bg-no-repeat bg-left"
         style={{ backgroundImage: `url(${dot2})` }}

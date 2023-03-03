@@ -16,7 +16,7 @@ function Solutions() {
         <div className="flex mt-36 items-center w-[80%] m-auto">
           <div className="w-1/2">
             <div className="w-[90%] m-auto">
-              <div className="text-[35px] font-semibold text-white">
+              <div className="text-[30px] font-semibold text-white">
                 Why choose PropVR Interactive 3D Solutions?
               </div>
 
