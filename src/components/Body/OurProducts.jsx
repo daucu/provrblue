@@ -10,7 +10,7 @@ import walkthrough from "../Assets/Images/walkthrough.webp";
 import map from "../Assets/Images/map.webp";
 function OurProducts() {
   return (
-    <div className="mt-60">
+    <div className="mt-16">
       <div
         className="bg-contain  bg-no-repeat bg-left"
         style={{ backgroundImage: `url(${dot2})` }}
@@ -27,9 +27,9 @@ function OurProducts() {
             </div>
           </div>
           <div className="mt-8 w-[80%] pt-24  m-auto flex justify-between">
-            <div className="w-[50%] flex ">
-              <div className="w-[90%]  text-center p-4 flex flex-col items-center">
-                <div className="flex btn w-[290px]  items-center justify-start p-0 ">
+            <div className="w-[40%] flex ">
+              <div className="w-[85%]  text-center p-4 flex flex-col items-center">
+                <div className="flex btn p-0  w-[290px] h-[55px]   items-center justify-start  ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={build}
@@ -43,7 +43,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={location}
@@ -57,7 +57,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={AmenitiesIcon}
@@ -71,7 +71,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={Floorplan}
@@ -85,7 +85,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={salestool}
@@ -99,7 +99,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={Brochure}
@@ -113,7 +113,7 @@ function OurProducts() {
                     </p>
                   </div>
                 </div>
-                <div className="flex btn w-[290px] mt-4  items-center justify-start p-0 ">
+                <div className="flex btn w-[290px] h-[55px] mt-4  items-center justify-start p-0 ">
                   <div className="h-[50px] w-[80px] flex items-center justify-center">
                     <img
                       src={walkthrough}
