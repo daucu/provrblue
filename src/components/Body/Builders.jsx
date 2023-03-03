@@ -33,7 +33,7 @@ function Builders() {
             </h1>
           </div>
           {/* create a flex wrap div  */}
-          <div className="relative z-10 flex w-[80%] m-auto   flex-wrap justify-self-start mt-2">
+          <div className="relative z-10 flex w-[80%] m-auto justify-center   flex-wrap justify-self-start mt-2">
             {/* create a div for each logo  */}
             <div className="w-[150px] h-[80px]  m-2">
               <img src={ab} alt="" className="w-[100%] h-[100%] object-cover" />
