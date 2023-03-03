@@ -101,7 +101,7 @@ function Builders() {
                 className="w-[100%] h-[100%] object-cover"
               />
             </div>
-            <div className="w-[150px] h-[80px]  m-2">
+            {/* <div className="w-[150px] h-[80px]  m-2">
               <img
                 src={raunakgroup}
                 alt=""
@@ -114,7 +114,7 @@ function Builders() {
                 alt=""
                 className="w-[100%] h-[100%] object-cover"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
