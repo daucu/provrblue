@@ -1,4 +1,5 @@
 import React from "react";
+import dot2 from "../Assets/Images/dot2.webp";
 
 function Pricing() {
   return (
@@ -14,7 +15,10 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <div className=" mt-16  bg-[#000000]  flex flex-wrap items-center  justify-center  ">
+      <div
+        style={{ backgroundImage: `url(${dot2})`,  }}
+        className="bg-contain    mt-16  bg-[#000000]  flex flex-wrap items-center  justify-center"
+      >
         <div className="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center  container   ">
           <div className="py-12 sm:py-12 cursor-pointer hover:border-2 hover:border-[#4614B9] mr-6 border-2  md:py-6 lg:py-6 xl:py-20 px-16 w-full md:max-w-min sm:w-full bg-[#fbf3e8] rounded-md z-30">
             <h1 className="text-gray-500 font-semibold text-xl ">Basic</h1>
