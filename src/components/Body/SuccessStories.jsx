@@ -18,21 +18,22 @@ function SuccessStories() {
             autoPlay
             loop
             muted
+            playsInline
             className="w-[100%] h-[100vh] object-cover"
           />
           {/*  add button on the video  */}
           <div className="absolute flex items-center bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <AiOutlinePlus className=" text-black "  />
+              <AiOutlinePlus className=" text-black " />
             </button>
             <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <AiOutlineMinus className=" text-black "  />
+              <AiOutlineMinus className=" text-black " />
             </button>
             <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <TfiReload className=" text-black "  />
+              <TfiReload className=" text-black " />
             </button>
             <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <MdPhotoSizeSelectLarge className=" text-black "  />
+              <MdPhotoSizeSelectLarge className=" text-black " />
             </button>
           </div>
         </div>
