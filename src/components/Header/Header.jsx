@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../Assets/Images/propvrwhite1.webp";
 function Header() {
   return (
-    <div className="bg-[#5D3FD3] p-6">
+    <div className="bg-[#000000] p-8 fixed z-10 w-full">
       <div className="flex items-center ">
         <div className="w-[28%]">
           <img src={logo} alt="logo" className="w-[160px] m-auto" />

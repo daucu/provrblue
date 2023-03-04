@@ -17,7 +17,7 @@ import sattva from "../Assets/Images/sattva.webp";
 function Builders() {
   return (
     // set dotted into the background of the div on the left side
-    <div className="bg-[#5D3FD3]">
+    <div className="bg-[#000000]">
       <div className="relative">
         <div className="absolute w-[100%] h-[100%] top-0 left-0">
           <img
