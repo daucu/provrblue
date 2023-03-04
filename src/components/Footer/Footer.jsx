@@ -4,7 +4,7 @@ import { BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className="md:mt-24 mt-12">
+    <div className="md:mt-24 mt-52">
       <div className="md:flex md:w-[80%] w-[88%] m-auto  ">
         <div className="md:w-[30%] w-full">
           <div className="w-[150px]">
