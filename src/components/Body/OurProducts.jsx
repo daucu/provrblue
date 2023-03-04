@@ -26,25 +26,25 @@ function OurProducts() {
   const [active, setActive] = React.useState("1");
 
   return (
-    <div className="mt-6">
+    <div className="md:mt-6 mt-24">
       <div
         className="bg-contain  bg-no-repeat bg-left w"
         style={{ backgroundImage: `url(${dot2})`, backgroundSize: "34%" }}
       >
         <div>
-          <div className="w-[80%]  m-auto flex justify-center">
+          <div className="md:w-[80%] w-[95%] md:mt-0 mt-12 m-auto flex justify-center">
             <div className=" m-auto">
               <div className="text-[35px] text-center font-semibold text-white">
                 Our Products
               </div>
-              <div className="mt-2  m-auto text-white text-[19px]">
+              <div className="mt-2 md:w-auto w-[85%] m-auto text-white text-[19px]">
                 Product that gives you best experience for your prokect launches
               </div>
             </div>
           </div>
-          <div className="mt-8 w-[80%] pt-24  m-auto flex justify-between">
-            <div className="w-[38%] flex ">
-              <div className="w-[85%]  text-center p-4 flex flex-col items-center">
+          <div className="mt-8 lg:w-[80%] w-[95%] md:pt-24 pt-12  m-auto lg:flex justify-between">
+            <div className="lg:w-[38%] flex w-full overflow-x-scroll">
+              <div className="w-[95%] lg:w-[85%]  text-center p-4 flex lg:flex-col flex-row items-center">
                 <div
                   className={
                     active === "1"
@@ -193,19 +193,19 @@ function OurProducts() {
                   </div>
                 </div>
               </div>
-              <div className="w-[2px] h-[70vh] bg-[#4614B9] border-[#4614B9]"></div>
+              <div className="w-[2px]  h-[70vh] bg-[#4614B9] border-[#4614B9] hidden lg:block"></div>
             </div>
-            <div className="w-[62%]">
+            <div className="lg:w-[62%] w-[90%] m-auto">
               {/*      ----------------1 slide ----------------------- */}
               <div className={active === "1" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     3D elevation of the complete project embedded seamlessly on
                     360 drone image.
                   </div>
-                  <img src={d3dwebp} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <img src={d3dwebp} alt="" className="w-[100%] md:mt-0 mt-4 h-[100%]" />
+                  <div className="lg:lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[80px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={Drone} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -213,7 +213,7 @@ function OurProducts() {
                         360 Drone shoot on the project site
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[80px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={Eye} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -221,7 +221,7 @@ function OurProducts() {
                         View & interact with the project from all sides
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[80px] rounded-[15px]  border-2 border-[#191919] ">
                         <img
                           src={Viewwebp}
@@ -239,12 +239,12 @@ function OurProducts() {
               {/*      ----------------2 slide ----------------------- */}
               <div className={active === "2" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   <img src={map} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full ">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -252,7 +252,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full ">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img
                           src={iconic}
@@ -264,7 +264,7 @@ function OurProducts() {
                         Highlight iconic landmakrs near the project
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full ">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={multi} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -278,12 +278,12 @@ function OurProducts() {
               {/*      ----------------3 slide ----------------------- */}
               <div className={active === "3" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   <img src={fac} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -291,7 +291,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -299,7 +299,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -313,12 +313,12 @@ function OurProducts() {
               {/*      ----------------4 slide ----------------------- */}
               <div className={active === "4" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   <img src={Plan} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -326,7 +326,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -334,7 +334,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -348,12 +348,12 @@ function OurProducts() {
               {/*      ----------------5 slide ----------------------- */}
               <div className={active === "5" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   <img src={Sales} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -361,7 +361,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -369,7 +369,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -383,12 +383,12 @@ function OurProducts() {
               {/*      ----------------6 slide ----------------------- */}
               <div className={active === "6" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   <img src={Collaterals} alt="" className="w-[100%] h-[100%]" />
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -396,7 +396,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -404,7 +404,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -418,7 +418,7 @@ function OurProducts() {
               {/*      ----------------7 slide ----------------------- */}
               <div className={active === "7" ? "block" : "hidden"}>
                 <div className="flex flex-col items-center">
-                  <div className="text-white font-semibold text-[20px] pb-2">
+                  <div className="text-white font-semibold md:mt-0 mt-12 text-[20px] pb-2">
                     Show your customers the location advantage of your project
                   </div>
                   {/* add video  */}
@@ -435,8 +435,8 @@ function OurProducts() {
                   </div>
 
                   {/* <img src={fac} alt="" className="w-[100%] h-[100%]" /> */}
-                  <div className="flex items-center mt-4 ">
-                    <div className="flex items-center w-[33%] ">
+                  <div className="lg:flex items-center mt-4 w-full ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -444,7 +444,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>
@@ -452,7 +452,7 @@ function OurProducts() {
                         Interactive maps to show location advantages
                       </div>
                     </div>
-                    <div className="flex items-center w-[33%] ">
+                    <div className="flex items-center lg:w-[33%] md:mt-0 mt-4 w-full">
                       <div className="w-[90px] rounded-[15px]  border-2 border-[#191919] ">
                         <img src={map2} alt="" className="w-[100%] h-[100%]" />
                       </div>

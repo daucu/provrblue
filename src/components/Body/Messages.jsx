@@ -3,7 +3,7 @@ import dot2 from "../Assets/Images/dot2.webp";
 
 function Messages() {
   return (
-    <div className="mt-52">
+    <div className="md:mt-52 mt-12">
       <div
         className="bg-cover  bg-no-repeat bg-left w"
         style={{
@@ -14,9 +14,9 @@ function Messages() {
           padding: "10% 5%",
         }}
       >
-        <div className="w-[85%] m-auto">
-          <div className="flex items-center   ">
-            <div className="w-[45%]">
+        <div className="md:w-[85%]  w-[95%] m-auto">
+          <div className="md:flex items-center   ">
+            <div className="md:w-[45%] w-full">
               <div className="text-white font-bold text-[35px] ">
                 Send Us a Message
               </div>
@@ -29,9 +29,9 @@ function Messages() {
                 Contact us: +91 9962669121
               </div>
             </div>
-            <div className="w-[55%] ml-12">
-              <div className="  w-[95%]  m-auto  ">
-                <div className="flex w-[90%]   m-auto  ">
+            <div className="md:w-[55%] md:mt-0 mt-16 w-full md:ml-12">
+              <div className="md:w-[95%] w-full  m-auto  ">
+                <div className="flex md:w-[90%] w-full   m-auto  ">
                   <div className="w-[50%]">
                     <div className="text-white font-semibold mb-1">
                       First Name
@@ -59,7 +59,7 @@ function Messages() {
                     </div>
                   </div>
                 </div>
-                <div className="flex w-[90%]  m-auto pt-8 justify-start">
+                <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
                   <div className="w-full   ">
                     <div className="text-white font-semibold mb-1">Email</div>
                     <div>
@@ -72,7 +72,7 @@ function Messages() {
                     </div>
                   </div>
                 </div>
-                <div className="flex w-[90%]  m-auto pt-8 justify-start">
+                <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
                   <div className="w-full   ">
                     <div className="text-white font-semibold mb-1">Message</div>
                     <div>
@@ -86,7 +86,7 @@ function Messages() {
                     </div>
                   </div>
                 </div>
-                <div  className="flex w-[90%]  m-auto  justify-start">
+                <div  className="flex w-[90%]  md:m-auto  justify-start">
                   <button className="btn btn-primary mt-8 font-semibold text-[17px]">Send Message</button>
                 </div>
               </div>

@@ -5,7 +5,7 @@ function Pricing() {
   return (
     <div>
       {/* component */}
-      <div className="w-[80%] m-auto  pt-28 flex justify-center">
+      <div className="md:w-[80%] w-full m-auto  pt-28 flex justify-center">
         <div className=" m-auto">
           <div className="text-[35px] text-center font-semibold text-white">
             Product Plans
@@ -16,7 +16,7 @@ function Pricing() {
         </div>
       </div>
       <div
-        style={{ backgroundImage: `url(${dot2})`,  }}
+        style={{ backgroundImage: `url(${dot2})` }}
         className="bg-contain    mt-16  bg-[#000000]  flex flex-wrap items-center  justify-center"
       >
         <div className="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center  container   ">

@@ -10,11 +10,11 @@ function Solutions() {
     <div>
       <div
         // className="flex items-center"
-        className="flex items-center h-[90vh] bg-contain  bg-no-repeat bg-right"
+        className="flex items-center md:h-[90vh] h-auto bg-contain  bg-no-repeat bg-right"
         style={{ backgroundImage: `url(${dot2})` }}
       >
-        <div className="flex mt-36 items-center w-[80%] m-auto">
-          <div className="w-1/2">
+        <div className="md:flex mt-36 items-center md:w-[80%] w-[95%] m-auto">
+          <div className="md:w-1/2 w-[95%] m-auto md:pb-0 pb-12  ">
             <div className="w-[90%] m-auto">
               <div className="text-[30px] font-semibold text-white">
                 Why choose PropVR Interactive 3D Solutions?
@@ -27,9 +27,9 @@ function Solutions() {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
-            <div className="flex justify-evenly ">
-              <div className="p-4 rounded-sm w-[250px] ">
+          <div className="md:w-1/2 w-[95%] m-auto ">
+            <div className="md:flex justify-evenly ">
+              <div className="p-4 rounded-sm md:w-[250px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={bag} alt="" />
                 </div>
@@ -43,12 +43,12 @@ function Solutions() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 rounded-sm w-[250px] ">
+              <div className="p-4 rounded-sm md:w-[250px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={VRIcon} alt="" />
                 </div>
                 <div className="text-white text-[22px] font-semibold mt-2">
-                  Cross-Platform  
+                  Cross-Platform
                 </div>
                 <div>
                   <div className="text-white text-[17px] font-extralight mt-4">
@@ -58,8 +58,8 @@ function Solutions() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-evenly">
-              <div className="p-4 rounded-sm w-[250px] ">
+            <div className="md:flex justify-evenly">
+              <div className="p-4 rounded-sm md:w-[250px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={Users} alt="" />
                 </div>
@@ -73,7 +73,7 @@ function Solutions() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 rounded-sm w-[250px] ">
+              <div className="p-4 rounded-sm md:w-[250px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={userIcon} alt="" />
                 </div>
