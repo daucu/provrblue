@@ -1,0 +1,11 @@
+.menuBtn {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .itemCont {
+    display: none;
+  }
+  .menuBtn {
+    display: block;
+  }
+}

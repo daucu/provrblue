@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../Assets/Images/propvrwhite1.webp";
+import "../Assets/css/header.css";
+import { FiMenu } from "react-icons/fi";
+
 function Header() {
+  const [active, setActive] = useState(false);
+
   return (
-    <div className="bg-[#000000] p-8 fixed z-10 w-full">
-      <div className="flex items-center ">
+    <div className="containerHead bg-[#000000] p-8 fixed z-10 w-full">
+      <div className="mainhead flex items-center  justify-between">
         <div className="w-[28%]">
           <img src={logo} alt="logo" className="w-[160px] m-auto" />
         </div>
-        <div className="w-[65%] flex items-center justify-evenly ">
+        <div className="itemCont w-[65%] flex items-center justify-evenly ">
           <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   border-b-2  border-b-[#4614B9]  ">
             Products
           </div>
@@ -29,6 +34,14 @@ function Header() {
           <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
             Contact Us
           </div>
+        </div>
+        <div>
+          <button
+            className="menuBtn p-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
+            onClick={(e) => setActive(!active)}
+          >
+            <FiMenu className="text-white text-[20px] cursor-pointer" />
+          </button>
         </div>
       </div>
     </div>
