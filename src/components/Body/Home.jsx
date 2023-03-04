@@ -2,7 +2,9 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Builders from "./Builders";
+import Messages from "./Messages";
 import OurProducts from "./OurProducts";
+import Pricing from "./Pricing";
 import Solutions from "./Solutions";
 import Video from "./Video";
 
@@ -23,6 +25,12 @@ function Home() {
       </div>
       <div>
         <OurProducts />
+      </div>
+      <div>
+        <Pricing />
+      </div>
+      <div>
+        <Messages />
       </div>
       <div>
         <Footer />

@@ -7,7 +7,7 @@ function Video() {
     <div>
       {/* how to set backgorund video in the react js and add text  */}
       <div className="relative">
-        <video autoPlay loop muted className="w-full h-[800px] object-cover">
+        <video autoPlay loop muted className="w-full h-[900px] object-cover">
           <source src={video} type="video/mp4" />
         </video>
         {/*  */}
