@@ -4,6 +4,7 @@ import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
 import main from "../Assets/Images/main.png";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -13,7 +14,9 @@ function Header() {
       <div className="containerHead bg-[#000000] p-8 fixed z-10 w-full">
         <div className="mainhead flex items-center  justify-between">
           <div className="w-[28%]">
-            <img src={logo} alt="logo" className="w-[160px] m-auto" />
+            <Link to="/">
+              <img src={logo} alt="logo" className="w-[160px] m-auto" />
+            </Link>
           </div>
           <div className="itemCont w-[65%] flex items-center justify-evenly ">
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   border-b-2  border-b-[#4614B9]  ">
@@ -25,9 +28,11 @@ function Header() {
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Spaces
             </div>
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Success Stories
-            </div>
+            <Link to="/stories">
+              <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Success Stories
+              </div>
+            </Link>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Blog
             </div>
@@ -61,7 +66,9 @@ function Header() {
               <div className="cursor-pointer ">Products</div>
               <div className="cursor-pointer mt-2 ">Metaverse</div>
               <div className="cursor-pointer mt-2 ">Spaces</div>
-              <div className="cursor-pointer mt-2 ">Success Stories</div>
+              <Link to="/stories">
+                <div className="cursor-pointer mt-2 ">Success Stories</div>
+              </Link>
               <div className="cursor-pointer mt-2 ">Blog</div>
               <div className="cursor-pointer mt-2 ">Contact Us</div>
               <div className="cursor-pointer mt-2 ">About Us</div>
