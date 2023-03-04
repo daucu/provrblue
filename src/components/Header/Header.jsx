@@ -3,6 +3,7 @@ import logo from "../Assets/Images/propvrwhite1.webp";
 import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
 import main from "../Assets/Images/main.png";
+import { RxCross1 } from "react-icons/rx";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -48,14 +49,12 @@ function Header() {
           <div className={active ? "fixed w-full p-4 left-0 top-0" : "hidden"}>
             <div className="bg-white p-[17px] rounded-md shadow-md text-black">
               <div className="flex justify-between">
-                <div className="font-bold">
-                 Logo
-                </div>
+                <div className="font-bold">Logo</div>
                 <button
                   className="menuBtn p-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
                   onClick={(e) => setActive(!active)}
                 >
-                  <FiMenu className="text-white text-[20px] cursor-pointer" />
+                  <RxCross1 className="text-white text-[20px] cursor-pointer" />
                 </button>
               </div>
               <div className="cursor-pointer ">Products</div>
