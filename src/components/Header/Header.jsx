@@ -20,22 +20,23 @@ function Header() {
               Products
             </div>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Experience Centres
-            </div>
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Metaverse
             </div>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Digital Twin
+              Spaces
             </div>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Case studies
+              Success Stories
             </div>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Blog
             </div>
+
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Contact Us
+            </div>
+            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+              About Us
             </div>
           </div>
           <div>
@@ -58,12 +59,12 @@ function Header() {
                 </button>
               </div>
               <div className="cursor-pointer ">Products</div>
-              <div className="cursor-pointer mt-2 ">Experience Centers</div>
               <div className="cursor-pointer mt-2 ">Metaverse</div>
-              <div className="cursor-pointer mt-2 ">Digital Twin</div>
-              <div className="cursor-pointer mt-2 ">Case Studies</div>
+              <div className="cursor-pointer mt-2 ">Spaces</div>
+              <div className="cursor-pointer mt-2 ">Success Stories</div>
               <div className="cursor-pointer mt-2 ">Blog</div>
               <div className="cursor-pointer mt-2 ">Contact Us</div>
+              <div className="cursor-pointer mt-2 ">About Us</div>
             </div>
           </div>
         </div>
