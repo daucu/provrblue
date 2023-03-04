@@ -13,22 +13,22 @@ function Footer() {
           <div className="flex mt-4 items-center ">
             <div className="m-2">
               <button className="bg-[#191D24] p-2 rounded-md">
-                <BsInstagram size={20} />
+                <BsInstagram size={20} className="text-white" />
               </button>
             </div>
             <div className="m-2">
               <button className="bg-[#191D24] p-2 rounded-md">
-                <BsLinkedin size={20} />
+                <BsLinkedin size={20} className="text-white" />
               </button>
             </div>
             <div className="m-2">
               <button className="bg-[#191D24] p-2 rounded-md">
-                <BsTwitter size={20} />
+                <BsTwitter size={20} className="text-white" />
               </button>
             </div>
             <div className="m-2">
               <button className="bg-[#191D24] p-2 rounded-md">
-                <BsYoutube size={20} />
+                <BsYoutube size={20} className="text-white" />
               </button>
             </div>
           </div>
