@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-
+import wal from "../Assets/video/wal4.mp4"
 function Metaverse() {
   return (
     <div className="bg-[#000000]">
@@ -34,7 +34,32 @@ function Metaverse() {
           </div>
         </div>
         <div className="md:w-[50%] md:pt-0 pt-12 w-[90%] md:m-0 m-auto">
-          <img src="https://miro.medium.com/max/1400/1*BUnGEQT03iTgw_hVgIlOcw.gif" className="rounded-lg" alt="metaverse" />
+          <img
+            src="https://miro.medium.com/max/1400/1*BUnGEQT03iTgw_hVgIlOcw.gif"
+            className="rounded-lg"
+            alt="metaverse"
+          />
+        </div>
+      </div>
+      <div className=" md:w-[80%] w-[90%] m-auto pt-18 pb-12">
+        <div className="md:p-8 p-2 text-center">
+          <div className="font-extralight text-white text-[55px]">
+            The Real Estate Metaverse
+          </div>
+          <div>
+            <p className="mt-4">
+              Building the future of real estate search and discovery platform
+              for Dubai
+            </p>
+          </div>
+          <div className="p-6 mt-8">
+            <video className="mt-4" controls>
+              <source
+                src={wal}
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
       </div>
       <div>
