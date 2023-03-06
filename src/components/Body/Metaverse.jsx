@@ -43,7 +43,7 @@ function Metaverse() {
       </div>
       <div className=" md:w-[80%] w-[90%] m-auto pt-18 pb-12">
         <div className="md:p-8 p-2 text-center">
-          <div className="font-extralight text-white text-[55px]">
+          <div className="font-extralight text-white md:text-[55px] text-[30px]">
             The Real Estate Metaverse
           </div>
           <div>
