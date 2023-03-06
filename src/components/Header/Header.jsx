@@ -22,9 +22,11 @@ function Header() {
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   border-b-2  border-b-[#4614B9]  ">
               Products
             </div>
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Metaverse
-            </div>
+            <Link to="/metaverse">
+              <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Metaverse
+              </div>
+            </Link>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Spaces
             </div>
@@ -36,7 +38,6 @@ function Header() {
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Blog
             </div>
-
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Contact Us
             </div>
@@ -64,7 +65,9 @@ function Header() {
                 </button>
               </div>
               <div className="cursor-pointer ">Products</div>
-              <div className="cursor-pointer mt-2 ">Metaverse</div>
+              <Link to="/metaverse">
+                <div className="cursor-pointer mt-2 ">Metaverse</div>
+              </Link>
               <div className="cursor-pointer mt-2 ">Spaces</div>
               <Link to="/stories">
                 <div className="cursor-pointer mt-2 ">Success Stories</div>
