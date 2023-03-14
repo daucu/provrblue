@@ -47,7 +47,7 @@ function Messages() {
                   </div>
                   <div className="w-[50%] ml-8  ">
                     <div className="text-white font-semibold mb-1">
-                      Phone Number
+                      Last name
                     </div>
                     <div>
                       <input
@@ -55,6 +55,19 @@ function Messages() {
                         name=""
                         id=""
                         className="input input-bordered w-full   bg-[#191919] "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
+                  <div className="w-full   ">
+                    <div className="text-white font-semibold mb-1">Phone Number</div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        className="input input-bordered w-full  bg-[#191919] "
                       />
                     </div>
                   </div>
