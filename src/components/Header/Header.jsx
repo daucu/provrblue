@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import logo from "../Assets/Images/n_logo.png";
 import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
-import main from "../Assets/Images/main.png";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
@@ -81,7 +80,9 @@ function Header() {
                 <div className="cursor-pointer mt-2 ml-4 ">Success Stories</div>
               </Link>
               <div className="cursor-pointer mt-2 ml-4 ">Blog</div>
-              <div className="cursor-pointer mt-2 ml-4 ">Contact Us</div>
+              <Link to="/contactus">
+                <div className="cursor-pointer mt-2 ml-4 ">Contact Us</div>
+              </Link>
               <div className="cursor-pointer mt-2 ml-4 ">About Us</div>
             </div>
           </div>

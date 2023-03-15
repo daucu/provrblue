@@ -1001,7 +1001,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                 Email
               </span>
               <input
-                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className=" w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
               />
             </div>
