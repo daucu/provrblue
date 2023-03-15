@@ -39,9 +39,11 @@ function Header() {
                 Metaverse
               </div>
             </Link>
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Spaces
-            </div>
+            <Link to="/spaces">
+              <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Spaces
+              </div>
+            </Link>
             <Link to="/stories">
               <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
                 Success Stories
@@ -90,7 +92,10 @@ function Header() {
               <Link to="/metaverse">
                 <div className="cursor-pointer mt-2 ml-4 ">Metaverse</div>
               </Link>
-              <div className="cursor-pointer mt-2 ml-4 ">Spaces</div>
+
+              <Link to="/spaces">
+                <div className="cursor-pointer mt-2 ml-4 ">Spaces</div>
+              </Link>
               <Link to="/stories">
                 <div className="cursor-pointer mt-2 ml-4 ">Success Stories</div>
               </Link>
