@@ -17,13 +17,13 @@ function Solutions() {
           <div className="md:w-1/2 w-[95%] m-auto md:pb-0 pb-12  ">
             <div className="w-[90%] m-auto">
               <div className="text-[30px] font-semibold text-white">
-                Why choose PropVR Interactive 3D Solutions?
+                Why choose us?
               </div>
 
               <div className="mt-2 text-white text-[18px]">
-                Our Products can empower your sales team to improve engagement
-                with your client by upto 400% and improve lead conversion by
-                upto 30%.
+                Our products can enable your sales staff to increase customer
+                engagement by up to 500% and improves the likelihood of selling
+                construction space directly.
               </div>
             </div>
           </div>
@@ -34,12 +34,11 @@ function Solutions() {
                   <img src={bag} alt="" />
                 </div>
                 <div className="text-white text-[22px] font-semibold mt-2">
-                  Highest Quality
+                  High Quality
                 </div>
                 <div>
                   <div className="text-white text-[17px] font-extralight mt-4">
-                    High quality execution at the fastest time and for the best
-                    price available in the market
+                    Quality, Speed, Affordability - Choose All Three with Us!
                   </div>
                 </div>
               </div>
@@ -48,12 +47,11 @@ function Solutions() {
                   <img src={VRIcon} alt="" />
                 </div>
                 <div className="text-white text-[22px] font-semibold mt-2">
-                  Cross-Platform
+                  Universal compatibility
                 </div>
                 <div>
                   <div className="text-white text-[17px] font-extralight mt-4">
-                    Our products support wide range of devices from mobile,
-                    tablets to VR, AR headsets.
+                    Experience Our Products on Any Device, Anywhere, Anytime
                   </div>
                 </div>
               </div>
@@ -64,12 +62,12 @@ function Solutions() {
                   <img src={Users} alt="" />
                 </div>
                 <div className="text-white text-[22px] font-semibold mt-2">
-                  Solid Experience
+                  Highly Engaging
                 </div>
                 <div>
                   <div className="text-white text-[17px] font-extralight mt-4">
-                    Our arsenal consists of highly talented large team for 3D
-                    and Tech Development.
+                    Design options brought to life - see your project in a
+                    realistic 3D
                   </div>
                 </div>
               </div>
@@ -78,12 +76,12 @@ function Solutions() {
                   <img src={userIcon} alt="" />
                 </div>
                 <div className="text-white text-[22px] font-semibold mt-2">
-                  Dedicated Support
+                  Boost Client Decisions
                 </div>
                 <div>
                   <div className="text-white text-[17px] font-extralight mt-4">
-                    24x7 - Dedicated support to solve any queries. We are in
-                    this journey together.
+                    Empower your clients with immersive experiences and informed
+                    decisions through Interactive 3D Solutions.
                   </div>
                 </div>
               </div>
