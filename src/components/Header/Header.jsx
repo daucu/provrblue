@@ -38,9 +38,11 @@ function Header() {
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Blog
             </div>
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Contact Us
-            </div>
+            <Link to="/contactus">
+              <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Contact Us
+              </div>
+            </Link>
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               About Us
             </div>

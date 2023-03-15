@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Contactus from "./components/Body/Contactus";
 import Home from "./components/Body/Home";
 import Metaverse from "./components/Body/Metaverse";
 import SuccessStories from "./components/Body/SuccessStories";
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/stories" element={<SuccessStories />} />
         <Route path="/metaverse" element={<Metaverse />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
     </div>
   );
