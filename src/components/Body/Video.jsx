@@ -13,7 +13,7 @@ function Video() {
         {/*  */}
         <div className="absolute mt-12 w-[80%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <h1 className="md:text-7xl text-6xl  font-extralight  text-white">
-            Interactive 3D Solutions for Real Estate
+            Constructing innovation with Immersive 3D Experiences
           </h1>
           <div className="mt-6 md:flex items-center ">
             <button className="bg-[#4614B9]   text-white text-[20px] font-semibold px-[53px] py-[15px] rounded-lg hover:bg-[#4614B9]  border-none mt-4">

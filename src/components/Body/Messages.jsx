@@ -18,15 +18,15 @@ function Messages() {
           <div className="md:flex items-center   ">
             <div className="md:w-[45%] w-full">
               <div className="text-white font-bold text-[35px] ">
-                Send Us a Message
+              Get in touch
               </div>
               <div className="leading-8 text-white font-normal text-justify mt-6 text-[20px]">
-                If you are interested in our product and want a demo or have any
-                queries, please fill in the form, we will get in touch with you
-                soon.
+                If you're curious about our product and would like a demo or
+                have any questions, please fill out the form and we'll reach out
+                to you shortly.
               </div>
               <div className="leading-10 text-white font-normal mt-6 text-[22px]">
-                Contact us: +91 9962669121
+                Ring-a-ding-ding: +91 9054772765
               </div>
             </div>
             <div className="md:w-[55%] md:mt-0 mt-16 w-full md:ml-12">
@@ -61,7 +61,9 @@ function Messages() {
                 </div>
                 <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
                   <div className="w-full   ">
-                    <div className="text-white font-semibold mb-1">Phone Number</div>
+                    <div className="text-white font-semibold mb-1">
+                      Phone Number
+                    </div>
                     <div>
                       <input
                         type="text"
@@ -99,8 +101,10 @@ function Messages() {
                     </div>
                   </div>
                 </div>
-                <div  className="flex w-[90%]  md:m-auto  justify-start">
-                  <button className="btn btn-primary mt-8 font-semibold text-[17px]">Send Message</button>
+                <div className="flex w-[90%]  md:m-auto  justify-start">
+                  <button className="btn btn-primary mt-8 font-semibold text-[17px]">
+                    Send Message
+                  </button>
                 </div>
               </div>
             </div>
