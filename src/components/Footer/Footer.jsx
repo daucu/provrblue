@@ -71,7 +71,7 @@ function Footer() {
       </div>
       <div className="mt-8   w-[80%] m-auto border-b-2  bg-white"></div>
       <div className="mt-8 w-[80%] m-auto font-bold text-center pb-8">
-        Copyright © 2016 Propvr.
+        Copyright © 2016 Neuractory.
       </div>
     </div>
   );

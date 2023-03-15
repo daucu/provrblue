@@ -27,7 +27,7 @@ function Home() {
         <OurProducts />
       </div>
       <div>
-        {/* <Pricing /> */}
+        <Pricing />
       </div>
       <div>
         <Messages />

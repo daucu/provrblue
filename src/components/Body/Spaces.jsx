@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header/Header";
 import smart1 from "../Assets/Images/samrt1.webp";
 import sm2 from "../Assets/Images/sm2.webp";
@@ -17,6 +17,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Footer from "../Footer/Footer";
 import { Autoplay, Pagination } from "swiper";
 function Spaces() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-black ">
       <div className="md:pb-40  pb-36">
