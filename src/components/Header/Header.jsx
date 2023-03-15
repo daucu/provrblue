@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../Assets/Images/n_logo.png";
 import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
@@ -7,7 +7,15 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [active, setActive] = useState(false);
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <>
       <div className="containerHead bg-[#000000] p-6 fixed z-10 w-full">

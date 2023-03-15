@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import wal from "../Assets/video/wal4.mp4"
 function Metaverse() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-[#000000]">
       <div>

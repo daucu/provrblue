@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 function Contactus() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-black  ">
       <div className="md:pb-48 pb-36">

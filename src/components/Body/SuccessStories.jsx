@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import walk3 from "../Assets/video/walk3.mp4";
@@ -7,6 +7,15 @@ import { TfiReload } from "react-icons/tfi";
 import { MdPhotoSizeSelectLarge } from "react-icons/md";
 
 function SuccessStories() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div>
       <Header />
