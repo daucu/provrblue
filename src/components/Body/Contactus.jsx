@@ -14,10 +14,10 @@ A sample contact us page form written with tailwind css
 Illustration from undraw.co by the amazing Katerina Limpitsouni
 */}
         <div className="text-center md:text-[35px] text-[22px] md:p-0 p-4 text-white font-semibold w-full ">
-         Contact with us for more information
+          Contact with us for more information
         </div>
-        <div className="md:max-w-screen-xl w-[90%]  mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
-          <div className="flex flex-col justify-between">
+        <div className="md:max-w-[1200px] w-[90%]  mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+          <div className="flex flex-col  justify-evenly">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
                 Lets talk about everything!
@@ -1007,6 +1007,26 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
             </div>
             <div className="mt-8">
               <span className="uppercase text-sm text-gray-600 font-bold">
+                Date
+              </span>
+              <input
+                type="date"
+                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              />
+            </div>
+            {/* input type for date & time picker  */}
+            <div className="mt-8">
+              <span className="uppercase text-sm text-gray-600 font-bold">
+                Time
+              </span>
+              <input
+                type="time"
+                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              />
+            </div>
+
+            <div className="mt-8">
+              <span className="uppercase text-sm text-gray-600 font-bold">
                 Message
               </span>
               <textarea
@@ -1022,7 +1042,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
           </div>
         </div>
       </>
-      <div >
+      <div>
         <Footer className="mt-0" />
       </div>
     </div>
