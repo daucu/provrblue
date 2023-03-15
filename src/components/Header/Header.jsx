@@ -12,10 +12,13 @@ function Header() {
     <>
       <div className="containerHead bg-[#000000] p-6 fixed z-10 w-full">
         <div className="mainhead flex items-center  justify-between">
-          <div className="w-[28%]">
+          <div className="w-[28%] flex items-center md:justify-center">
             <Link to="/">
-              <img src={logo} alt="logo" className="w-[50px] m-auto" />
+              <img src={logo} alt="logo" className="max-w-[50px] m-auto" />
             </Link>
+            <div className="ml-2 text-[20px] font-semibold text-white">
+              Neuractory
+            </div>
           </div>
           <div className="itemCont w-[65%] flex items-center justify-evenly ">
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   border-b-2  border-b-[#4614B9]  ">
@@ -34,9 +37,11 @@ function Header() {
                 Success Stories
               </div>
             </Link>
+            <Link to="/blog">
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
               Blog
             </div>
+            </Link>
             <Link to="/contactus">
               <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
                 Contact Us
@@ -79,7 +84,9 @@ function Header() {
               <Link to="/stories">
                 <div className="cursor-pointer mt-2 ml-4 ">Success Stories</div>
               </Link>
-              <div className="cursor-pointer mt-2 ml-4 ">Blog</div>
+              <Link to="/blog">
+                <div className="cursor-pointer mt-2 ml-4 ">Blog</div>
+              </Link>
               <Link to="/contactus">
                 <div className="cursor-pointer mt-2 ml-4 ">Contact Us</div>
               </Link>
