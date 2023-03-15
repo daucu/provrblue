@@ -10,7 +10,7 @@ function Messages() {
           backgroundImage: `url(${dot2})`,
           backgroundSize: "30%",
           backgroundPosition: "left",
-          height: "128vh",
+          height: "135vh",
           padding: "10% 5%",
         }}
       >
