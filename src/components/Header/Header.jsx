@@ -16,9 +16,11 @@ function Header() {
             <Link to="/">
               <img src={logo} alt="logo" className="max-w-[50px] m-auto" />
             </Link>
-            <div className="ml-2 text-[20px] font-semibold text-white">
-              Neuractory
-            </div>
+            <Link to="/">
+              <div className="ml-2 text-[20px] font-semibold text-white">
+                Neuractory
+              </div>
+            </Link>
           </div>
           <div className="itemCont w-[65%] flex items-center justify-evenly ">
             <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   border-b-2  border-b-[#4614B9]  ">
@@ -38,9 +40,9 @@ function Header() {
               </div>
             </Link>
             <Link to="/blog">
-            <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-              Blog
-            </div>
+              <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Blog
+              </div>
             </Link>
             <Link to="/contactus">
               <div className="text-white text-[18px]   font-semibold cursor-pointer hover:text-[#4614B9]   ">
