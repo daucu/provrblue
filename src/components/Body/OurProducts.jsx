@@ -26,13 +26,13 @@ function OurProducts() {
   const [active, setActive] = React.useState("1");
 
   return (
-    <div className="md:mt-6 mt-24">
+    <div className="md:mt-28 mt-24">
       <div
         className="bg-contain  bg-no-repeat bg-left w"
         style={{ backgroundImage: `url(${dot2})`, backgroundSize: "34%" }}
       >
         <div>
-          <div className="md:w-[80%] w-[95%] md:mt-0 mt-12 m-auto flex justify-center">
+          <div className="md:w-[80%] w-[95%] md:mt-0 mt-18 m-auto flex justify-center">
             <div className=" m-auto">
               <div className="text-[35px] text-center font-semibold text-white">
                 Our Products
