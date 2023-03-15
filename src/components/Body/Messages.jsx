@@ -10,7 +10,7 @@ function Messages() {
           backgroundImage: `url(${dot2})`,
           backgroundSize: "30%",
           backgroundPosition: "left",
-          height: "100vh",
+          height: "128vh",
           padding: "10% 5%",
         }}
       >
@@ -18,7 +18,7 @@ function Messages() {
           <div className="md:flex items-center   ">
             <div className="md:w-[45%] w-full">
               <div className="text-white font-bold text-[35px] ">
-              Get in touch
+                Get in touch
               </div>
               <div className="leading-8 text-white font-normal text-justify mt-6 text-[20px]">
                 If you're curious about our product and would like a demo or
@@ -27,6 +27,30 @@ function Messages() {
               </div>
               <div className="leading-10 text-white font-normal mt-6 text-[22px]">
                 Ring-a-ding-ding: +91 9054772765
+              </div>
+              <div className="text-white font-bold mt-6 text-[25px] ">
+                Let's turn your project into a masterpiece!
+              </div>
+              <div className="  text-white font-normal text-justify  text-[20px]">
+                Talk to Us
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                1. Virtual Tours
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                2. 3D Walkthroughs
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                3. Virtual Reality/ Augmented Reality
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                4. Metaverse
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                5. Spaces
+              </div>
+              <div className="  text-white font-normal text-justify  text-[15px]">
+                6. Marketing
               </div>
             </div>
             <div className="md:w-[55%] md:mt-0 mt-16 w-full md:ml-12">
