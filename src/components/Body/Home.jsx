@@ -32,11 +32,12 @@ function Home() {
         <OurProducts />
       </div>
       <div>
-        <Pricing />
-      </div>
-      <div>
         <Sparks />
       </div>
+      <div>
+        <Pricing />
+      </div>
+
       <div>
         <Messages />
       </div>
