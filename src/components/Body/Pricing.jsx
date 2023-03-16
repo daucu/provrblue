@@ -50,7 +50,7 @@ function Pricing() {
                 View Essential demo
               </button>
             </div>
-            <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-bold text-[18px]  justify-center">
+            <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-normal text-[18px]  justify-center">
               You can check all the specifications of the plans by clicking on
               the button below
             </div>
@@ -75,7 +75,7 @@ function Pricing() {
                 View Essential demo
               </button>
             </div>
-            <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-bold text-[18px]  justify-center">
+            <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-normal text-[18px]  justify-center">
               You can check all the specifications of the plans by clicking on
               the button below
             </div>

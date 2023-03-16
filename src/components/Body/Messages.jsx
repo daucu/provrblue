@@ -28,28 +28,28 @@ function Messages() {
               <div className="leading-10 text-white font-normal mt-6 text-[22px]">
                 Ring-a-ding-ding: +91 9054772765
               </div>
-              <div className="text-white font-bold mt-6 text-[25px] ">
+              <div className="text-white font-bold mt-6 text-[27px] ">
                 Let's turn your project into a masterpiece!
               </div>
               <div className="  text-white font-normal text-justify  text-[20px]">
                 Talk to Us
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 1. Virtual Tours
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 2. 3D Walkthroughs
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 3. Virtual Reality/ Augmented Reality
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 4. Metaverse
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 5. Spaces
               </div>
-              <div className="  text-white font-normal text-justify  text-[15px]">
+              <div className="  text-white font-normal text-justify  text-[16px]  ">
                 6. Marketing
               </div>
             </div>
