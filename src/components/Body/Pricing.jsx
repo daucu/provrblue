@@ -475,7 +475,7 @@ function Pricing() {
               </div>
             </div>
 
-            <div className="mt-4 flex justify-center">
+            <div className="mt-2 flex justify-center">
               <button
                 className="btn bg-[#4614B9] cursor-pointer hover:bg-[#4614B9] text-white border-none w-full"
                 // onClick={() => handleBasicPlanOpen()}
