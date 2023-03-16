@@ -22,7 +22,7 @@ function Marketing() {
             <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[22px] text-[18px] text-white mt-4">
               Easily share on desktop, mobile and VR
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-justify mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.
@@ -35,7 +35,7 @@ function Marketing() {
             <div className="text-center   md:w-[85%] w-[95%] m-auto md:text-[22px] text-[18px] text-white mt-4">
               Stand out with interactive presentations
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-justify mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.
@@ -48,7 +48,7 @@ function Marketing() {
             <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[22px] text-[18px] text-white mt-4">
               Use the 3D modelling tools you know
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-justify mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]    text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.

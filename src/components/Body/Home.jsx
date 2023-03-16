@@ -37,7 +37,6 @@ function Home() {
       <div>
         <Pricing />
       </div>
-
       <div>
         <Messages />
       </div>

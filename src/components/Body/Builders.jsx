@@ -34,10 +34,10 @@ function Builders() {
             </h1>
           </div>
           <div className="relative md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  mt-2">
-            <div>
-              <img src={dmlogo} alt="" className="w-1/3 m-auto rounded-md" />
+            <div className="w-[200px] m-auto rounded-full">
+              <img src={dmlogo} alt="" className="w-[100%] rounded-full m-auto " />
             </div>
-            <div className="text-white font-semibold text-[25px] m-auto text-center mt-4 ">D.M. Group</div>
+            <div className="text-white font-semibold text-[20px] m-auto text-center mt-4 ">D.M. Group</div>
           </div>
           {/* create a flex wrap div  */}
           {/* <div className="relative   flex md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  flex-wrap justify-self-start mt-2">
