@@ -23,7 +23,7 @@ function Sparks() {
           </div>
         </div>
       </div>
-      <div className="md:flex justify-between md:mt-28 mt-12 items-center ">
+      <div className="md:flex flex-col-reverse justify-between md:mt-28 mt-12 items-center ">
         <div className="md:w-[45%] md:mt-0 mt-6 w-full">
           <div className="md:text-[27px] text-[21px] underline decoration-[#4614B9] text-white">
             Present anywhere
