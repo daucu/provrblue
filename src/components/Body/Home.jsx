@@ -7,6 +7,7 @@ import Messages from "./Messages";
 import OurProducts from "./OurProducts";
 import Pricing from "./Pricing";
 import Solutions from "./Solutions";
+import Sparks from "./Sparks";
 import Video from "./Video";
 
 function Home() {
@@ -32,6 +33,9 @@ function Home() {
       </div>
       <div>
         <Pricing />
+      </div>
+      <div>
+        <Sparks />
       </div>
       <div>
         <Messages />

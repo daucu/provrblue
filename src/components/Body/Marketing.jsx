@@ -4,7 +4,7 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { SlEnergy } from "react-icons/sl";
 function Marketing() {
   return (
-    <div className="  mt-36 items-center md:w-[80%] w-[95%] m-auto">
+    <div className="  md:mt-36 mt-12 items-center md:w-[80%] w-[95%] m-auto">
       <div className="text-center md:text-[35px] text-[22px] text-white">
         A communication and marketing tool for architecture
       </div>
