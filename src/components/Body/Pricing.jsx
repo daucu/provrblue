@@ -37,7 +37,7 @@ function Pricing() {
         // style={{ backgroundImage: `url(${dot2})` }}
         className="bg-contain    mt-16  bg-[#000000]  flex flex-wrap items-center  justify-center"
       >
-        <div className="md:flex items-center ">
+        <div className="md:flex items-stretch ">
           <div className="p-4 md:w-[400px] w-[325px]   m-4 border-2 hover:border-[#4614B9] hover:border-2 bg-zinc-100 rounded-md">
             <div className="text-[#4614B9] text-center text-[25px] font-bold">
               Essential
