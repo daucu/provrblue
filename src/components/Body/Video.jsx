@@ -6,10 +6,10 @@ function Video() {
   return (
     <div>
       {/* how to set backgorund video in the react js and add text  */}
-      <div className="relative">
-        <video autoPlay loop muted className="w-full h-[900px] object-cover">
+      <div className="relative  h-[900px]">
+        {/* <video autoPlay loop muted className="w-full h-[900px] object-cover">
           <source src={video} type="video/mp4" />
-        </video>
+        </video> */}
         {/*  */}
         <div className="absolute mt-12 w-[80%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <h1 className="md:text-7xl text-6xl  font-extralight  text-white">
