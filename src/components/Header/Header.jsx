@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import logo from "../Assets/Images/n_logo.png";
+import logo from "../Assets/Images/n_logo.png";
 import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
@@ -22,7 +22,7 @@ function Header() {
         <div className="mainhead flex items-center  justify-between">
           <div className="w-[28%] flex items-center md:justify-center">
             <Link to="/">
-              {/* <img src={logo} alt="logo" className="max-w-[50px] m-auto" /> */}
+              <img src={logo} alt="logo" className="max-w-[50px] m-auto" />
             </Link>
             <Link to="/">
               <div className="ml-2 text-[20px] font-semibold text-white">
@@ -80,7 +80,7 @@ function Header() {
                 <div className="font-bold">
                   <div className="w-[28%]">
                     <Link to="/">
-                      {/* <img src={logo} alt="logo" className="w-[100px] m-auto" /> */}
+                      <img src={logo} alt="logo" className="w-[100px] m-auto" />
                     </Link>
                   </div>
                 </div>
