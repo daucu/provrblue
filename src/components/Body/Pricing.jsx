@@ -38,7 +38,7 @@ function Pricing() {
         className="bg-contain    mt-16  bg-[#000000]  flex flex-wrap items-center  justify-center"
       >
         <div className="md:flex items-center ">
-          <div className="p-4 w-[380px] m-4 border-2 hover:border-[#4614B9] hover:border-2 bg-zinc-100 rounded-md">
+          <div className="p-4 w-[400px]   m-4 border-2 hover:border-[#4614B9] hover:border-2 bg-zinc-100 rounded-md">
             <div className="text-[#4614B9] text-center text-[25px] font-bold">
               Essential
             </div>
@@ -50,213 +50,203 @@ function Pricing() {
                 View Essential demo
               </button>
             </div>
-            {/* <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-normal text-[18px]  justify-center">
-              You can check all the specifications of the plans by clicking on
-              the button below
-            </div> */}
-                <div className="relative    w-[96%] m-auto  py-8 flex-auto">
-                  <div className="flex  justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      3D Modeling
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Real-Time Rendering
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Augmented Reality(AR) View (AR floorplans and Project
-                      Visualization)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360-Degree Views
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Isometric Floor Plan View (See Your Dream Place from
-                      Above)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360 Virtual Tour Of Interiors (Take a Virtual Stroll
-                      Through Our Interiors with 360 Virtual Tour)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222]">(2 elements plans)</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360 Virtual Tour Of Interiors (Take a Virtual Stroll
-                      Through Our Interiors with 360 Virtual Tour)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222]">(2 elements plans)</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Amenities 3D Renders And 360 Renders (Discover the
-                      Amenities in Stunning Detail with 3D Renders and 360
-                      Views)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222]">(1 element plan)</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Touchscreen Support (Tablet, Smart Screens, Mobile,
-                      Desktops, and Laptops)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Advertisement(OPTIONAL) (Digital Marketing)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Balcony Views From Different Floors (Step onto the Balcony
-                      with a Click)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                        (Any 1 Floor)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Project Walkthrough Video (A guided video tour of the
-                      space)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                        (Only Exterior + Any 1 Amenity Included)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Exterior And Interior Images (High-resolution Images for
-                      promotional materials)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                        (Only Exterior + No Amenity Included)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Scene Modifications/ Edits
-                    </div>
-                    <div className="w-[30%] text-center text-black">
-                       3 - Free
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Custom Website (OPTIONAL) (Unleash Your Creativity with a
-                      Custom Website Designed)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Branding (Custom Logo/Information Add-ons)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Complete Project 3D (See Every Detail of Our Project Come
-                      to Life in 3D)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Virtual Reality Viewing (Headset/Oculus support)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Complete Amenities 3D (Immersive 3D Amenities View)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Customizable Furniture and Finishes
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Customizable Lighting
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Interactive Furniture Placement
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                      ( - )
-                    </div>
+
+            <div className="relative    w-[96%] m-auto  py-8 flex-auto">
+              <div className="flex  justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  3D Modeling
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Real-Time Rendering
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Augmented Reality(AR) View (AR floorplans and Project
+                  Visualization)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360-Degree Views
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Isometric Floor Plan View (See Your Dream Place from Above)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
+                  Our Interiors with 360 Virtual Tour)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222]">(2 elements plans)</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
+                  Our Interiors with 360 Virtual Tour)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222]">(2 elements plans)</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Amenities 3D Renders And 360 Renders (Discover the Amenities
+                  in Stunning Detail with 3D Renders and 360 Views)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222]">(1 element plan)</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Touchscreen Support (Tablet, Smart Screens, Mobile, Desktops,
+                  and Laptops)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Advertisement(OPTIONAL) (Digital Marketing)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Balcony Views From Different Floors (Step onto the Balcony
+                  with a Click)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">(Any 1 Floor)</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Project Walkthrough Video (A guided video tour of the space)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">
+                    (Only the Exterior + Any 1 Amenity Included)
                   </div>
                 </div>
-            
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Exterior And Interior Images (High-resolution Images for
+                  promotional materials)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">
+                    (Only the Exterior + No Amenity Included in it)
+                  </div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Scene Modifications/ Edits
+                </div>
+                <div className="w-[30%] text-center text-black">3 - Free</div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Custom Website (OPTIONAL) (Unleash Your Creativity with a
+                  Custom Website Designed)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Branding (Custom Logo/Information Add-ons)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Complete Project 3D (See Every Detail of Our Project Come to
+                  Life in 3D)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Virtual Reality Viewing (Headset/Oculus support)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Complete Amenities 3D (Immersive 3D Amenities View)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Customizable Furniture and Finishes
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Customizable Lighting
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Interactive Furniture Placement
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  ( - )
+                </div>
+              </div>
+            </div>
+
             <div className="mt-4 flex justify-center">
               <button
                 className="btn bg-[#4614B9] cursor-pointer hover:bg-[#4614B9] text-white border-none w-full"
@@ -266,9 +256,9 @@ function Pricing() {
               </button>
             </div>
           </div>
-          <div className="p-4 w-[380px] m-4 border-2 hover:border-[#4614B9] hover:border-2 bg-zinc-100 rounded-md">
+          <div className="p-4 w-[400px]    m-4 border-2 hover:border-[#4614B9] hover:border-2 bg-zinc-100 rounded-md">
             <div className="text-[#4614B9] text-center text-[25px] font-bold">
-             Premium Plan
+              Premium Plan
             </div>
             <div className="mt-8 flex justify-center">
               <button className="btn w-full">Book a Demo</button>
@@ -278,213 +268,203 @@ function Pricing() {
                 View Essential demo
               </button>
             </div>
-            {/* <div className="mt-4 flex  w-[90%] m-auto text-justify text-black font-normal text-[18px]  justify-center">
-              You can check all the specifications of the plans by clicking on
-              the button below
-            </div> */}
-                <div className="relative    w-[96%] m-auto  py-8 flex-auto">
-                  <div className="flex  justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      3D Modeling
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Real-Time Rendering
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Augmented Reality(AR) View (AR floorplans and Project
-                      Visualization)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360-Degree Views
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Isometric Floor Plan View (See Your Dream Place from
-                      Above)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto" />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360 Virtual Tour Of Interiors (Take a Virtual Stroll
-                      Through Our Interiors with 360 Virtual Tour)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222]">All Elements</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      360 Virtual Tour Of Interiors (Take a Virtual Stroll
-                      Through Our Interiors with 360 Virtual Tour)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222]">All Elements</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Amenities 3D Renders And 360 Renders (Discover the
-                      Amenities in Stunning Detail with 3D Renders and 360
-                      Views)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">All Element</div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Touchscreen Support (Tablet, Smart Screens, Mobile,
-                      Desktops, and Laptops)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Advertisement(OPTIONAL) (Digital Marketing)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Balcony Views From Different Floors (Step onto the Balcony
-                      with a Click)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                      (All Floors)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Project Walkthrough Video (A guided video tour of the
-                      space)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                        (All Exterior + All the  Amenity Included)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Exterior And Interior Images (High-resolution Images for
-                      promotional materials)
-                    </div>
-                    <div className="w-[30%]">
-                      <img src={tick} alt="" className="w-[20px] m-auto  " />
-                      <div className="text-[#222] text-center">
-                        (All Exterior + All the Amenity Included)
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Scene Modifications/ Edits
-                    </div>
-                    <div className="w-[30%] text-center text-black">
-                       6 - Free
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Custom Website (OPTIONAL) (Unleash Your Creativity with a
-                      Custom Website Designed)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                    <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Branding (Custom Logo/Information Add-ons)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Complete Project 3D (See Every Detail of Our Project Come
-                      to Life in 3D)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Virtual Reality Viewing (Headset/Oculus support)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Complete Amenities 3D (Immersive 3D Amenities View)
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Customizable Furniture and Finishes
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Customizable Lighting
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
-                  </div>
-                  <div className="flex mt-4 justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
-                      Interactive Furniture Placement
-                    </div>
-                    <div className="w-[30%] text-center font-bold text-black">
-                     <img src={tick} alt="" className="w-[20px] m-auto  " />
-                    </div>
+
+            <div className="relative    w-[96%] m-auto  py-8 flex-auto">
+              <div className="flex  justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  3D Modeling
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Real-Time Rendering
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Augmented Reality(AR) View (AR floorplans and Project
+                  Visualization)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360-Degree Views
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Isometric Floor Plan View (See Your Dream Place from Above)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto" />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
+                  Our Interiors with 360 Virtual Tour)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222]">All Elements</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
+                  Our Interiors with 360 Virtual Tour)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222]">All Elements</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Amenities 3D Renders And 360 Renders (Discover the Amenities
+                  in Stunning Detail with 3D Renders and 360 Views)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">All Element</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Touchscreen Support (Tablet, Smart Screens, Mobile, Desktops,
+                  and Laptops)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Advertisement(OPTIONAL) (Digital Marketing)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Balcony Views From Different Floors (Step onto the Balcony
+                  with a Click)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">(All Floors)</div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Project Walkthrough Video (A guided video tour of the space)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">
+                    (All Exterior + All the Amenity Included)
                   </div>
                 </div>
-            
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Exterior And Interior Images (High-resolution Images for
+                  promotional materials)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-center">
+                    (All Exterior + All the Amenity Included)
+                  </div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Scene Modifications/ Edits
+                </div>
+                <div className="w-[30%] text-center text-black">6 - Free</div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Custom Website (OPTIONAL) (Unleash Your Creativity with a
+                  Custom Website Designed)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Branding (Custom Logo/Information Add-ons)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Complete Project 3D (See Every Detail of Our Project Come to
+                  Life in 3D)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Virtual Reality Viewing (Headset/Oculus support)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Complete Amenities 3D (Immersive 3D Amenities View)
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Customizable Furniture and Finishes
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Customizable Lighting
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[15px]">
+                  Interactive Furniture Placement
+                </div>
+                <div className="w-[30%] text-center font-bold text-black">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                </div>
+              </div>
+            </div>
+
             <div className="mt-4 flex justify-center">
               <button
                 className="btn bg-[#4614B9] cursor-pointer hover:bg-[#4614B9] text-white border-none w-full"
@@ -494,7 +474,6 @@ function Pricing() {
               </button>
             </div>
           </div>
-        
         </div>
       </div>
       {basicPlan === true ? (
@@ -508,7 +487,7 @@ function Pricing() {
                   <h3 className="text-2xl font-semibold text-[#4614B9]">
                     Essential
                   </h3>
-                  
+
                   <button
                     className="btn btn-circle btn-sm btn-outline  hover:bg-[#4614B9] p-1 ml-auto     text-black  hover:text-white float-right text-2xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => handleBasicPlanClose()}
