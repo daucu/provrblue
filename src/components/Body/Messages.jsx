@@ -10,8 +10,8 @@ function Messages() {
           backgroundImage: `url(${dot2})`,
           backgroundSize: "30%",
           backgroundPosition: "left",
-          height: "150vh",
-          padding: "10% 5%",
+          
+          padding: "5%",
         }}
       >
         <div className="md:w-[85%]  w-[95%] m-auto">
