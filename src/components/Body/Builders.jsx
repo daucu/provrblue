@@ -35,7 +35,7 @@ function Builders() {
           </div>
           <div className="relative md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  mt-2">
             <div>
-              <img src={dmlogo} alt="" className="w-1/2 m-auto rounded-md" />
+              <img src={dmlogo} alt="" className="w-1/3 m-auto rounded-md" />
             </div>
             <div className="text-white font-semibold text-[25px] m-auto text-center mt-4 ">D.M. Group</div>
           </div>
