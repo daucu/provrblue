@@ -4,6 +4,7 @@ import Users from "../Assets/Images/Users.webp";
 import VRIcon from "../Assets/Images/VRIcon.webp";
 import userIcon from "../Assets/Images/userIcon.webp";
 import bag from "../Assets/Images/bag.webp";
+import vr6 from "../Assets/Images/vr6.jpg";
 // import VRIcon from "../Assets/Images/VRIcon.webp";
 function Solutions() {
   return (
@@ -24,6 +25,11 @@ function Solutions() {
                 Our products can enable your sales staff to increase customer
                 engagement by up to 500% and improves the likelihood of selling
                 construction space directly.
+              </div>
+              <div>
+                <div className="md:mt-8 mt-6">
+                  <img src={vr6} alt=""  className="rounded-lg"/>
+                </div>
               </div>
             </div>
           </div>
