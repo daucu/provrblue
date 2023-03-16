@@ -45,11 +45,10 @@ function Pricing() {
             <div className="mt-8 flex justify-center">
               <button className="btn w-full">Book a Demo</button>
             </div>
-            
 
             <div className="relative    w-[96%] m-auto  py-8 flex-auto">
               <div className="flex  justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   3D Modeling
                 </div>
                 <div className="w-[30%]">
@@ -57,7 +56,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Real-Time Rendering
                 </div>
                 <div className="w-[30%]">
@@ -65,7 +64,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Augmented Reality(AR) View (AR floorplans and Project
                   Visualization)
                 </div>
@@ -74,7 +73,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360-Degree Views
                 </div>
                 <div className="w-[30%]">
@@ -82,7 +81,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Isometric Floor Plan View (See Your Dream Place from Above)
                 </div>
                 <div className="w-[30%]">
@@ -90,37 +89,43 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
                   Our Interiors with 360 Virtual Tour)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222]">(2 elements plans)</div>
+                  <div className="text-[#222] text-[13px]">
+                    (2 elements plans)
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
                   Our Interiors with 360 Virtual Tour)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222]">(2 elements plans)</div>
+                  <div className="text-[#222] text-[13px]">
+                    (2 elements plans)
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Amenities 3D Renders And 360 Renders (Discover the Amenities
                   in Stunning Detail with 3D Renders and 360 Views)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222]">(1 element plan)</div>
+                  <div className="text-[#222] text-[13px]">
+                    (1 element plan)
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Touchscreen Support (Tablet, Smart Screens, Mobile, Desktops,
                   and Laptops)
                 </div>
@@ -129,7 +134,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Advertisement(OPTIONAL) (Digital Marketing)
                 </div>
                 <div className="w-[30%]">
@@ -137,46 +142,50 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Balcony Views From Different Floors (Step onto the Balcony
                   with a Click)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">(Any 1 Floor)</div>
-                </div>
-              </div>
-              <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
-                  Project Walkthrough Video (A guided video tour of the space)
-                </div>
-                <div className="w-[30%]">
-                  <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">
-                    (Only the Exterior + Any 1 Amenity Included)
+                  <div className="text-[#222] text-[13px] text-center">
+                    (Any 1 Floor)
                   </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
+                  Project Walkthrough Video (A guided video tour of the space)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-[13px] text-center">
+                    (Only the Exterior +   Any 1 Amenity Included)
+                  </div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Exterior And Interior Images (High-resolution Images for
                   promotional materials)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">
+                  <div className="text-[#222] text-[13px] text-center">
                     (Only the Exterior + No Amenity Included in it)
                   </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Scene Modifications/ Edits
                 </div>
-                <div className="w-[30%] text-center text-black">3 - Free</div>
+                <div className="w-[30%] text-center text-[13px] text-black">
+                  3 - Free
+                </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Custom Website (OPTIONAL) (Unleash Your Creativity with a
                   Custom Website Designed)
                 </div>
@@ -185,7 +194,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Branding (Custom Logo/Information Add-ons)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -193,7 +202,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Complete Project 3D (See Every Detail of Our Project Come to
                   Life in 3D)
                 </div>
@@ -202,7 +211,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Virtual Reality Viewing (Headset/Oculus support)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -210,7 +219,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Complete Amenities 3D (Immersive 3D Amenities View)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -218,7 +227,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Customizable Furniture and Finishes
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -226,7 +235,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Customizable Lighting
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -234,7 +243,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Interactive Furniture Placement
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -259,11 +268,10 @@ function Pricing() {
             <div className="mt-8 flex justify-center">
               <button className="btn w-full">Book a Demo</button>
             </div>
-            
 
             <div className="relative    w-[96%] m-auto  py-8 flex-auto">
               <div className="flex  justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   3D Modeling
                 </div>
                 <div className="w-[30%]">
@@ -271,7 +279,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Real-Time Rendering
                 </div>
                 <div className="w-[30%]">
@@ -279,7 +287,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Augmented Reality(AR) View (AR floorplans and Project
                   Visualization)
                 </div>
@@ -288,7 +296,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360-Degree Views
                 </div>
                 <div className="w-[30%]">
@@ -296,7 +304,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Isometric Floor Plan View (See Your Dream Place from Above)
                 </div>
                 <div className="w-[30%]">
@@ -304,37 +312,43 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
                   Our Interiors with 360 Virtual Tour)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222]">All Elements</div>
+                  <div className="text-[#222] text-center text-[13px]">
+                    All Elements
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   360 Virtual Tour Of Interiors (Take a Virtual Stroll Through
                   Our Interiors with 360 Virtual Tour)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222]">All Elements</div>
+                  <div className="text-[#222] text-center text-[13px]">
+                    All Elements
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Amenities 3D Renders And 360 Renders (Discover the Amenities
                   in Stunning Detail with 3D Renders and 360 Views)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">All Element</div>
+                  <div className="text-[#222] text-[13px] text-center">
+                    All Element
+                  </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Touchscreen Support (Tablet, Smart Screens, Mobile, Desktops,
                   and Laptops)
                 </div>
@@ -343,7 +357,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Advertisement(OPTIONAL) (Digital Marketing)
                 </div>
                 <div className="w-[30%]">
@@ -351,46 +365,50 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Balcony Views From Different Floors (Step onto the Balcony
                   with a Click)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">(All Floors)</div>
-                </div>
-              </div>
-              <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
-                  Project Walkthrough Video (A guided video tour of the space)
-                </div>
-                <div className="w-[30%]">
-                  <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">
-                    (All Exterior + All the Amenity Included)
+                  <div className="text-[#222] text-[13px] text-center">
+                    (All Floors)
                   </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
+                  Project Walkthrough Video (A guided video tour of the space)
+                </div>
+                <div className="w-[30%]">
+                  <img src={tick} alt="" className="w-[20px] m-auto  " />
+                  <div className="text-[#222] text-[13px] text-center">
+                  (All the Exterior + All the   Amenities are Included in this)
+                  </div>
+                </div>
+              </div>
+              <div className="flex mt-4 justify-between  ">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Exterior And Interior Images (High-resolution Images for
                   promotional materials)
                 </div>
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
-                  <div className="text-[#222] text-center">
+                  <div className="text-[#222] text-[13px] text-center">
                     (All Exterior + All the Amenity Included)
                   </div>
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Scene Modifications/ Edits
                 </div>
-                <div className="w-[30%] text-center text-black">6 - Free</div>
+                <div className="w-[30%] text-center text-[13px] text-black">
+                  6 - Free
+                </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Custom Website (OPTIONAL) (Unleash Your Creativity with a
                   Custom Website Designed)
                 </div>
@@ -399,7 +417,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Branding (Custom Logo/Information Add-ons)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -407,7 +425,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Complete Project 3D (See Every Detail of Our Project Come to
                   Life in 3D)
                 </div>
@@ -416,7 +434,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Virtual Reality Viewing (Headset/Oculus support)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -424,7 +442,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Complete Amenities 3D (Immersive 3D Amenities View)
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -432,7 +450,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Customizable Furniture and Finishes
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -440,7 +458,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Customizable Lighting
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -448,7 +466,7 @@ function Pricing() {
                 </div>
               </div>
               <div className="flex mt-4 justify-between  ">
-                <div className="w-[67%] text-black font-semibold text-[15px]">
+                <div className="w-[67%] text-black font-semibold text-[13px]">
                   Interactive Furniture Placement
                 </div>
                 <div className="w-[30%] text-center font-bold text-black">
@@ -504,7 +522,7 @@ function Pricing() {
                 {/* create a dov with verical scroll  */}
                 {/* <div className="relative overflow-y-scroll h-[70vh] md:w-[500px] w-[90%]  p-6 flex-auto">
                   <div className="flex  justify-between  ">
-                    <div className="w-[67%] text-black font-semibold text-[15px]">
+                    <div className="w-[67%] text-black font-semibold text-[13px]">
                       3D Modeling
                     </div>
                     <div className="w-[30%]">
@@ -552,7 +570,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222]">(2 elements plans)</div>
+                      <div className="text-[#222] text-[13px]">(2 elements plans)</div>
                     </div>
                   </div>
                   <div className="flex mt-4 justify-between  ">
@@ -562,7 +580,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222]">(2 elements plans)</div>
+                      <div className="text-[#222] text-[13px]">(2 elements plans)</div>
                     </div>
                   </div>
                   <div className="flex mt-4 justify-between  ">
@@ -573,7 +591,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222]">(1 element plan)</div>
+                      <div className="text-[#222] text-[13px]">(1 element plan)</div>
                     </div>
                   </div>
                   <div className="flex mt-4 justify-between  ">
@@ -600,7 +618,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (Any 1 Floor)
                       </div>
                     </div>
@@ -612,7 +630,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (Only Exterior + Any 1 Amenity Included)
                       </div>
                     </div>
@@ -624,7 +642,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (Only Exterior + No Amenity Included)
                       </div>
                     </div>
@@ -803,7 +821,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center ">
+                      <div className="text-[#222] text-[13px] text-center ">
                         All elements
                       </div>
                     </div>
@@ -815,7 +833,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center ">
+                      <div className="text-[#222] text-[13px] text-center ">
                         All elements
                       </div>
                     </div>
@@ -828,7 +846,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center ">
+                      <div className="text-[#222] text-[13px] text-center ">
                         All elements
                       </div>
                     </div>
@@ -857,7 +875,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (All Floors)
                       </div>
                     </div>
@@ -869,7 +887,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (All Exterior and Interiors + All Amenities Included)
                       </div>
                     </div>
@@ -881,7 +899,7 @@ function Pricing() {
                     </div>
                     <div className="w-[30%]">
                       <img src={tick} alt="" className="w-[30px] m-auto  " />
-                      <div className="text-[#222] text-center">
+                      <div className="text-[#222] text-[13px] text-center">
                         (Only Exterior + No Amenity Included)
                       </div>
                     </div>
