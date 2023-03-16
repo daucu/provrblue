@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-
+import ct from "../Assets/Images/ctc.png";
 function Contactus() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -25,18 +25,21 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
         <div className="text-center md:text-[35px] text-[22px] md:p-0 p-4 text-white font-semibold w-full ">
           Contact with us for more information
         </div>
-        <div className="md:max-w-[1200px] w-[90%]  mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+        <div
+          className="md:max-w-[1200px] w-[90%]  mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto
+         bg-[#060606] text-white rounded-lg shadow-lg"
+        >
           <div className="flex flex-col  justify-evenly">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
                 Lets talk about everything!
               </h2>
-              <div className="text-gray-700 mt-8">
+              <div className="text-[#d7d7d7] mt-8">
                 Hate forms? Send us an <span className="underline">email</span>{" "}
                 instead.
               </div>
             </div>
-            <div className="mt-8 text-center">
+            {/* <div className="mt-8 text-center">
               <svg
                 className="w-full"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,6 +47,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                 id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a"
                 data-name="Layer 1"
                 viewBox="0 0 1096 574.74"
+                fill="red"
               >
                 <defs>
                   <linearGradient
@@ -65,9 +69,10 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                     height="49.48"
                     patternUnits="userSpaceOnUse"
                     viewBox="0 0 36.88 49.48"
+                    
                   >
                     <rect width="36.88" height="49.48" fill="none" />
-                    <path d="M4.33,13.19c4.5,0,4.51-7,0-7s-4.52,7,0,7Z" />
+                    <path d="M4.33,13.19c4.5,0,4.51-7,0-7s-4.52,7,0,7Z"   />
                     <path d="M4.51,17.16c4.51,0,4.52-7,0-7s-4.51,7,0,7Z" />
                     <path d="M4.51,20.94c4.51,0,4.52-7,0-7s-4.51,7,0,7Z" />
                     <path d="M3.38,24.72c4.51,0,4.51-7,0-7s-4.51,7,0,7Z" />
@@ -126,6 +131,8 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                     x2="462.91"
                     y2="559.69"
                     xlinkHref="#eb6c86d6-45fa-49e0-9a60-1b0612516196"
+                  
+
                   />
                 </defs>
                 <title>contact us</title>
@@ -992,11 +999,14 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                   fill="#fbbebe"
                 />
               </svg>
+            </div> */}
+            <div className="flex justify-center items-center mt-8">
+              <img src={ct} alt="" />
             </div>
           </div>
           <div className="">
             <div>
-              <span className="uppercase text-sm text-gray-600 font-bold">
+              <span className="uppercase text-sm text-white font-bold">
                 Full Name
               </span>
               <input
@@ -1006,7 +1016,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
               />
             </div>
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">
+              <span className="uppercase text-sm text-white font-bold">
                 Email
               </span>
               <input
@@ -1015,7 +1025,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
               />
             </div>
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">
+              <span className="uppercase text-sm text-white font-bold">
                 Date
               </span>
               <input
@@ -1025,7 +1035,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
             </div>
             {/* input type for date & time picker  */}
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">
+              <span className="uppercase text-sm text-white font-bold">
                 Time
               </span>
               <input
@@ -1035,7 +1045,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
             </div>
 
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">
+              <span className="uppercase text-sm text-white font-bold">
                 Message
               </span>
               <textarea
