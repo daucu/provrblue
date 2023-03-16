@@ -44,19 +44,19 @@ function Spaces() {
               </div>
               <div className="w-full mt-4  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   From Sketch to Screen
                 </div>
               </div>
               <div className="w-full  mt-2 flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   The Power of Visualization
                 </div>
               </div>
               <div className="w-full mt-2  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   A Larger Window into the Future
                 </div>
               </div>
@@ -96,19 +96,19 @@ function Spaces() {
               </div>
               <div className="w-full mt-4  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   Interactive Design
                 </div>
               </div>
               <div className="w-full  mt-2 flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   Touch, Swipe, Pinch
                 </div>
               </div>
               <div className="w-full mt-2  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   4K quality content
                 </div>
               </div>
@@ -148,19 +148,19 @@ function Spaces() {
               </div>
               <div className="w-full mt-4  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   Tablet plus Oculus experience
                 </div>
               </div>
               <div className="w-full  mt-2 flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   Design in Another Dimension
                 </div>
               </div>
               <div className="w-full mt-2  flex items-center">
                 <div className="w-[30px] font-bold text-white  ">-</div>
-                <div className="md:text-[22px] text-[19px]">
+                <div className="md:text-[22px] text-[19px] text-[#d7d7d7]">
                   Step Inside Your Projects
                 </div>
               </div>

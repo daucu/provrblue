@@ -115,25 +115,25 @@ function Header() {
               <FiMenu className="text-white text-[20px] cursor-pointer" />
             </button>
           </div>
-          <div className={active ? "fixed w-full p-4 left-0 top-0" : "hidden"}>
+          <div className={active ? "fixed w-full p-2 left-0 top-0" : "hidden"}>
             <div className="bg-white p-[17px] rounded-md shadow-md text-black">
-              <div className="flex justify-between">
+              <div className="flex justify-between items-center">
                 <div className="font-bold">
                   <div className="w-[30%]">
-                    <NavLink to="/">
-                      <img src={logo} alt="logo" className="w-[130px] m-auto" />
+                    <NavLink to="/" className="flex items-center">
+                      <img src={logo} alt="logo" className="w-[160px] m-auto" />
+                      <div>Neuractory</div>
                     </NavLink>
                   </div>
                 </div>
                 <div>
-                <button
-                  className="menuBtn p-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
-                  onClick={(e) => setActive(!active)}
-                >
-                  <RxCross1 className="text-white text-[20px] cursor-pointer" />
-                </button>
+                  <button
+                    className="menuBtn p-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
+                    onClick={(e) => setActive(!active)}
+                  >
+                    <RxCross1 className="text-white text-[20px] cursor-pointer" />
+                  </button>
                 </div>
-             
               </div>
               <NavLink
                 to="/"
@@ -141,23 +141,35 @@ function Header() {
                   isActive ? "border-b-[3px] border-[#4614B9]" : ""
                 }
               >
-                <div className="cursor-pointer ml-4 mt-2 ">Products</div>
+                <div className="cursor-pointer ml-4 mt-2   text-[19px]    ">
+                  Products
+                </div>
               </NavLink>
               <NavLink to="/metaverse">
-                <div className="cursor-pointer mt-2 ml-4 ">Metaverse</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Metaverse
+                </div>
               </NavLink>
 
               <NavLink to="/spaces">
-                <div className="cursor-pointer mt-2 ml-4 ">Spaces</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Spaces
+                </div>
               </NavLink>
               <NavLink to="/stories">
-                <div className="cursor-pointer mt-2 ml-4 ">Success Stories</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Success Stories
+                </div>
               </NavLink>
               <NavLink to="/blog">
-                <div className="cursor-pointer mt-2 ml-4 ">Blog</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Blog
+                </div>
               </NavLink>
               <NavLink to="/contactus">
-                <div className="cursor-pointer mt-2 ml-4 ">Contact Us</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Contact Us
+                </div>
               </NavLink>
               <NavLink
                 to="/aboutus"

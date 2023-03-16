@@ -29,6 +29,7 @@ function SuccessStories() {
             muted
             playsInline
             className="w-[100%] h-[100vh] object-cover"
+          
           />
           {/*  add button on the video  */}
           <div className="absolute flex items-center bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
