@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Builders from "./Builders";
+import Marketing from "./Marketing";
 import Messages from "./Messages";
 import OurProducts from "./OurProducts";
 import Pricing from "./Pricing";
@@ -22,6 +23,9 @@ function Home() {
       </div>
       <div>
         <Solutions />
+      </div>
+      <div>
+        <Marketing />
       </div>
       <div>
         <OurProducts />
