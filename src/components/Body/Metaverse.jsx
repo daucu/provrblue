@@ -30,15 +30,15 @@ function Metaverse() {
           <div className="md:flex md:mt-8 mt-4 items-center ">
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]">500+</div>
-              <div className="font-semibold ">Projects Delivered</div>
+              <div className="font-semibold text-[#d7d7d7] ">Projects Delivered</div>
             </div>
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]"> 50+</div>
-              <div className="font-semibold ">Ongoing Projects</div>
+              <div className="font-semibold text-[#d7d7d7] ">Ongoing Projects</div>
             </div>
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]"> 10+</div>
-              <div className="font-semibold ">Countries</div>
+              <div className="font-semibold text-[#d7d7d7] ">Countries</div>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ function Metaverse() {
             The Real Estate Metaverse
           </div>
           <div>
-            <p className="mt-4">
+            <p className="mt-4 text-[#d7d7d7] ">
               Building the future of real estate search and discovery platform
               for Dubai
             </p>
