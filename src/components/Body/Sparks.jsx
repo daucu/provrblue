@@ -23,8 +23,11 @@ function Sparks() {
           </div>
         </div>
       </div>
-      <div className="md:flex flex-col-reverse justify-between md:mt-28 mt-12 items-center ">
-        <div className="md:w-[45%] md:mt-0 mt-6 w-full">
+      <div className="md:flex justify-between md:mt-28 mt-12 items-center ">
+        <div className="md:w-[45%] w-full order-2 ">
+          <img src={sp2} alt="" className="rounded-md" />
+        </div>
+        <div className="md:w-[45%] md:mt-0 mt-6 w-full order-1">
           <div className="md:text-[27px] text-[21px] underline decoration-[#4614B9] text-white">
             Present anywhere
           </div>
@@ -38,9 +41,6 @@ function Sparks() {
               that is inherently interactive.
             </div>
           </div>
-        </div>
-        <div className="md:w-[45%] w-full">
-          <img src={sp2} alt="" className="rounded-md" />
         </div>
       </div>
       <div className="md:flex justify-between md:mt-28 mt-12 items-center ">
@@ -64,7 +64,10 @@ function Sparks() {
         </div>
       </div>
       <div className="md:flex justify-between md:mt-28 mt-12 items-center ">
-        <div className="md:w-[45%] md:mt-0 mt-6 w-full">
+      <div className="md:w-[45%] w-full order-2">
+          <img src={sp4} alt="" className="rounded-md" />
+        </div>
+        <div className="md:w-[45%] md:mt-0 mt-6 w-full order-1">
           <div className="md:text-[27px] text-[21px] underline decoration-[#4614B9] text-white">
           Video calls in 3D
           </div>
@@ -75,9 +78,6 @@ function Sparks() {
               that is inherently interactive.
             </div>
           </div>
-        </div>
-        <div className="md:w-[45%] w-full">
-          <img src={sp4} alt="" className="rounded-md" />
         </div>
       </div>
     </div>
