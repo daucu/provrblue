@@ -15,7 +15,7 @@ function Home() {
         <Header />
       </div>
       <div>
-        <Video />
+        {/* <Video /> */}
       </div>
       <div>
         <Builders />

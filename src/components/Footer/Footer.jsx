@@ -1,7 +1,7 @@
 import React from "react";
 // import logo from "../Assets/Images/propvrwhite1.webp";
 import { BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
-import logo from "../Assets/Images/n_logo.png";
+// import logo from "../Assets/Images/n_logo.png";
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
       <div className="md:flex md:w-[80%] w-[88%] m-auto  ">
         <div className="md:w-[30%] w-full">
           <div className="w-[150px] flex items-center">
-            <img src={logo} className="w-1/3" />
+            {/* <img src={logo} className="w-1/3" /> */}
             <div className="font-semibold text-white ml-2 text-[20px]">Neuractory</div>
           </div>
           <div className="flex mt-4 items-center ">
