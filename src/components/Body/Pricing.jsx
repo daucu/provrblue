@@ -45,11 +45,7 @@ function Pricing() {
             <div className="mt-8 flex justify-center">
               <button className="btn w-full">Book a Demo</button>
             </div>
-            <div className="mt-4 flex justify-center">
-              <button className="btn bg-[#4614B9] hover:bg-[#4614B9] text-white border-none w-full">
-                View Essential demo
-              </button>
-            </div>
+            
 
             <div className="relative    w-[96%] m-auto  py-8 flex-auto">
               <div className="flex  justify-between  ">
@@ -263,11 +259,7 @@ function Pricing() {
             <div className="mt-8 flex justify-center">
               <button className="btn w-full">Book a Demo</button>
             </div>
-            <div className="mt-4 flex justify-center">
-              <button className="btn bg-[#4614B9] hover:bg-[#4614B9] text-white border-none w-full">
-                View Essential demo
-              </button>
-            </div>
+            
 
             <div className="relative    w-[96%] m-auto  py-8 flex-auto">
               <div className="flex  justify-between  ">
