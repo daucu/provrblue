@@ -18,7 +18,7 @@ function Header() {
   }, []);
   return (
     <>
-      <div className="containerHead bg-[#000000] p-6 fixed z-10 w-full">
+      <div className="containerHead bg-[#000000] p-[5px] fixed z-10 w-full">
         <div className="mainhead flex items-center  justify-between">
           <div className="w-[28%] flex items-center md:justify-center">
             <NavLink
