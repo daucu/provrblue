@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Login from "./components/Auth/Login";
+import Signup from "./components/Auth/Signup";
 import AboutUs from "./components/Body/AboutUs";
 import Blog from "./components/Body/Blog";
 import Contactus from "./components/Body/Contactus";
@@ -19,6 +21,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/spaces" element={<Spaces />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
   );
