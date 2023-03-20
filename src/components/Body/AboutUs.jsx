@@ -1,6 +1,18 @@
 import React, { useEffect } from "react";
-import soon from "../Assets/Images/soon.jpg";
+import Neon from "../Assets/Images/Neon.jpg";
+import Neon2 from "../Assets/Images/Neon2.jpg";
+import Manish1 from "../Assets/Images/Manish1.png";
+import Dhruvil1 from "../Assets/Images/Dhruvil1.png";
+import Drashty1 from "../Assets/Images/Drashty1.png";
+import Manoj1 from "../Assets/Images/Manoj1.png";
+import dsd from "../Assets/Images/dsd.png";
+import { Autoplay, Pagination } from "swiper";
+
 import Footer from "../Footer/Footer";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Header from "../Header/Header";
 function AboutUs() {
   const scrollToTop = () => {
@@ -25,37 +37,199 @@ function AboutUs() {
           <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
             <div className="w-full lg:w-6/12">
               <h2 className="w-full font-bold lg:text-4xl text-3xl text-white lg:leading-10 leading-9">
-                We are here to make great design accessible and delightfull for
-                everyone
+                The pioneer of Augmented Reality
               </h2>
-              <p className="font-normal text-base leading-6 text-[#d7d7d7] mt-6">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum.In the first place we have
-                granted to God, and by this our present charter confirmed for us
-                and our heirs forever that the English Church shall be free, and
-                shall have her rights entire,
+              <p className="font-normal  leading-6 text-[#d7d7d7]  text-[18px]  mt-6">
+                Neuractory is a company dedicated to providing to build the most
+                immersive augmented reality platform for various industries.
+              </p>
+              <p className="font-normal  leading-6 text-[#d7d7d7] text-[18px]   mt-2">
+                Step into a world of limitless possibilities with our
+                WebAR-powered product!
+              </p>
+              <p className="font-normal  leading-6 text-[#d7d7d7] text-[18px]   mt-2">
+                Immerse your audience in a world of your brand's creation with
+                our WebAR technology and experience the future of interactive
+                marketing with our cutting-edge technology.
               </p>
             </div>
             <div className="w-full lg:w-6/12">
-              <img
-                className="lg:block hidden w-full"
-                src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png"
-                alt="people discussing on board"
-              />
-              <img
-                className="lg:hidden sm:block hidden w-full"
-                src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png"
-                alt="people discussing on board"
-              />
-              <img
-                className="sm:hidden block w-full"
-                src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png"
-                alt="people discussing on board"
-              />
+              <Swiper
+                spaceBetween={50}
+                slidesPerView={1}
+                // code to add autoplay
+                // modules={[Autoplay, Pagination]}
+                // autoplay={{
+                //   delay: 1500,
+                //   disableOnInteraction: false,
+                // }}
+                pagination={{ clickable: true }}
+              >
+                <SwiperSlide>
+                  <div className="w-full">
+                    <img
+                      src={Neon}
+                      alt=""
+                      srcset=""
+                      className="md:w-1/2 w-full m-auto"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="w-full">
+                    <img
+                      src={Neon2}
+                      alt=""
+                      srcset=""
+                      className="md:w-1/2 w-full m-auto"
+                    />
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
+          <div className="md:mt-32 mt-8">
+            <div className="text-white font-semibold text-center md:text-[30px] text-[20px]">
+              Our Team
+            </div>
+            <div className="md:mt-16 mt-8">
+              <Swiper
+                // breakpoints for responsive design
+                breakpoints={{
+                  640: {
+                    width: 640,
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    width: 768,
+                    slidesPerView: 2,
+                  },
+                  1024: {
+                    width: 1024,
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                  },
+                  1280: {
+                    width: 1280,
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                  },
+                }}
+                spaceBetween={30}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <div>
+                    <div className="h-[400px]">
+                      <img
+                        src={Manish1}
+                        alt=""
+                        srcset=""
+                        className="h-[100%] w-[100%]"
+                      />
+                    </div>
 
+                    <div className="p-4 bg-[#8026B1]">
+                      <div className="text-[20px]  font-semibold text-white">
+                        Dhruvil Patadia
+                      </div>
+                      <div className="text-[#d7d7d7] font-normal text-[17px]">
+                        Co-Founder
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div>
+                    <div className="h-[400px]">
+                      <img
+                        src={Dhruvil1}
+                        alt=""
+                        className="h-[100%] w-[100%]"
+                        srcset=""
+                      />
+                    </div>
+
+                    <div className="p-4 bg-[#8026B1]">
+                      <div className="text-[20px]  font-semibold text-white">
+                        Dhruvil Patadia
+                      </div>
+                      <div className="text-[#d7d7d7] font-normal text-[17px]">
+                        Co-Founder
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div>
+                    <div className="h-[400px]">
+                      <img
+                        src={Drashty1}
+                        alt=""
+                        className="h-[100%] w-[100%]"
+                        srcset=""
+                      />
+                    </div>
+
+                    <div className="p-4 bg-[#8026B1]">
+                      <div className="text-[20px]  font-semibold text-white">
+                        Drashty Ranpara
+                      </div>
+                      <div className="text-[#d7d7d7] font-normal text-[17px]">
+                        CEO and Founder
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div>
+                    <div className="h-[400px]">
+                      <img
+                        src={Manoj1}
+                        alt=""
+                        className="h-[100%] w-[100%]"
+                        srcset=""
+                      />
+                    </div>
+
+                    <div className="p-4 bg-[#8026B1]">
+                      <div className="text-[20px]  font-semibold text-white">
+                        Milan Ranpara
+                      </div>
+                      <div className="text-[#d7d7d7] font-normal text-[17px]">
+                        CPO and Co-Founder
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div>
+                    <div className="h-[400px]">
+                      <img
+                        src={dsd}
+                        alt=""
+                        className="h-[100%] w-[100%]"
+                        srcset=""
+                      />
+                    </div>
+
+                    <div className="p-4 bg-[#8026B1]">
+                      <div className="text-[20px]  font-semibold text-white">
+                        Manoj Ranpara
+                      </div>
+                      <div className="text-[#d7d7d7] font-normal text-[17px]">
+                        Co-Founder
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
           <div className="relative mt-24">
             <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4 z-0 relative">
               <div className=" w-12 h-12 bg-[#4614B8] rounded-full flex justify-center items-center">
