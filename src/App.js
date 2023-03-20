@@ -1,3 +1,4 @@
+import axios from "axios";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Login from "./components/Auth/Login";
@@ -9,6 +10,7 @@ import Home from "./components/Body/Home";
 import Metaverse from "./components/Body/Metaverse";
 import Spaces from "./components/Body/Spaces";
 import SuccessStories from "./components/Body/SuccessStories";
+axios.defaults.withCredentials = true;
 
 function App() {
   return (

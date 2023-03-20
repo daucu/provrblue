@@ -111,7 +111,7 @@ function Signup() {
                   <input
                     type="text"
                     name={name}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Name"
                     onChange={(e) => setName(e.target.value)}
@@ -121,7 +121,7 @@ function Signup() {
                   <input
                     type="text"
                     name={username}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Username"
                     onChange={(e) => setUsername(e.target.value)}
@@ -131,7 +131,7 @@ function Signup() {
                   <input
                     type="text"
                     name={email}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Email address"
                     onChange={(e) => setEmail(e.target.value)}
@@ -142,7 +142,7 @@ function Signup() {
                   <input
                     type="password"
                     name={password}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Password"
                     onChange={(e) => setPassword(e.target.value)}
@@ -152,7 +152,7 @@ function Signup() {
                   <input
                     type="text"
                     name={phone}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Phone Number"
                     onChange={(e) => setPhone(e.target.value)}
@@ -162,7 +162,7 @@ function Signup() {
                   <input
                     type="text"
                     name={country}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="Country"
                     onChange={(e) => setCountry(e.target.value)}
@@ -173,7 +173,7 @@ function Signup() {
                   <input
                     type="text"
                     name={address}
-                    className="input input-bordered w-full text-white "
+                    className="input input-bordered w-full text-white rounded-none "
                     id="exampleFormControlInput2"
                     placeholder="City"
                     onChange={(e) => setAddress(e.target.value)}
