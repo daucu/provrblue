@@ -28,7 +28,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
         </div>
         <div
           className="md:max-w-[1200px] w-[90%]  mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto
-         bg-[#060606] text-white rounded-lg shadow-lg"
+         bg-[#060606] text-white rounded-none shadow-lg"
         >
           <div className="flex flex-col  justify-evenly">
             <div>
@@ -1011,7 +1011,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                 Full Name
               </span>
               <input
-                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
                 type="text"
                 placeholder=""
               />
@@ -1021,7 +1021,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                 Email
               </span>
               <input
-                className=" w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className=" w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
                 type="text"
               />
             </div>
@@ -1031,7 +1031,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
               </span>
               <input
                 type="date"
-                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
               />
             </div>
             {/* input type for date & time picker  */}
@@ -1041,7 +1041,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
               </span>
               <input
                 type="time"
-                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
               />
             </div>
 
@@ -1050,12 +1050,12 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                 Message
               </span>
               <textarea
-                className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
                 defaultValue={""}
               />
             </div>
             <div className="mt-8">
-              <button className="btn border-none uppercase text-sm font-bold tracking-wide bg-[#4614B9] text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              <button className="btn border-none uppercase text-sm font-bold tracking-wide bg-[#4614B9] text-gray-100 p-3 rounded-none w-full focus:outline-none focus:shadow-outline">
                 Send Message
               </button>
             </div>
