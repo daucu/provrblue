@@ -1,8 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import { useState } from "react";
+import axios from "axios";
+import { useEffect } from "react";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Header from "../Header/Header";
+import { API } from "../Constant/API";
 function Login() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -13,13 +18,62 @@ function Login() {
   useEffect(() => {
     scrollToTop();
   }, []);
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [toastify, setToastify] = useState(false);
+  // toastify
+  const notify = () =>
+    toast.error("Login Failed", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  // axios post request fuction for login
+  async function PostLogin() {
+    const response = await axios
+      .post(
+        `${API}/login`,
+        {
+          email: email,
+          password: password,
+        },
+        {
+          withCredentials: true,
+        }
+      )
+      .then((res) => {
+        console.log(res.data);
+        if (res.data.message === "login success") {
+          console.log("Login Successfull");
+          window.location.href = "/profile";
+        } else {
+          console.log("Login Failed");
+          setToastify(true);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+        setToastify(!toastify);
+        notify();
+        console.log("Login Failed");
+        // alert("Login Failed");
+      });
+  }
+
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-      <section className="h-screen  pt-[75px]">
-        <div className="px-6 h-full   text-white max-w-[1400px] m-auto">
+      {/* header nav */}
+      <Header />
+      {/* main login */}
+
+      <section className="lg:h-screen   pt-[75px]">
+        <div className="px-6 h-full text-white max-w-[1400px] m-auto">
           <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div className="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
               <img
@@ -28,11 +82,26 @@ function Login() {
                 alt="Sample image"
               />
             </div>
-
+            {toastify ? (
+              <ToastContainer
+                position="top-right"
+                autoClose={2000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+              ></ToastContainer>
+            ) : null}
+            {/* <button onClick={notify}>Notify!</button>
+              <ToastContainer /> */}
             <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <form className="pb-[50px]">
                 <div className="flex flex-row items-center justify-center lg:justify-start">
-                  <p className="text-lg mb-0 mr-4">Login in with</p>
+                  <p className="text-lg mb-0 mr-4">Sign in with</p>
 
                   <button
                     type="button"
@@ -99,22 +168,22 @@ function Login() {
                 <div className="mb-6">
                   <input
                     type="email"
-                    // name={email}
-                    className="input input-bordered w-full rounded-none "
+                    name={email}
+                    className="input input-bordered w-full rounded-none text-white "
                     id="exampleFormControlInput2"
                     placeholder="Email address"
-                    // onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 {/* Password input */}
                 <div className="mb-6">
                   <input
                     type="password"
-                    // name={password}
-                    className="input input-bordered w-full rounded-none"
+                    name={password}
+                    className="input input-bordered w-full rounded-none text-white"
                     id="exampleFormControlInput2"
                     placeholder="Password"
-                    // onChange={(e) => setPassword(e.target.value)}
+                    onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
                 <div className="flex justify-between items-center mb-6">
@@ -141,6 +210,7 @@ function Login() {
                   <button
                     type="button"
                     className="btn btn-sm   w-full lg:w-32 rounded-none  bg-[#4614B9] hover:bg-[#247572]"
+                    onClick={() => PostLogin()}
                   >
                     Login
                   </button>
@@ -159,7 +229,6 @@ function Login() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
