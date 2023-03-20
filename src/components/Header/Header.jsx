@@ -182,18 +182,21 @@ function Header() {
                   Contact Us
                 </div>
               </NavLink>
-              <NavLink to="/contactus">
-                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
-                  Contact Us
-                </div>
-              </NavLink>
+
               <NavLink
                 to="/aboutus"
                 className={({ isActive }) =>
                   isActive ? "border-b-[3px] border-[#4614B9]" : ""
                 }
               >
-                <div className="cursor-pointer mt-2 ml-4 ">About Us</div>
+                <div className="cursor-pointer mt-2 ml-4 text-[19px] ">
+                  About Us
+                </div>
+              </NavLink>
+              <NavLink to="/login">
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Login
+                </div>
               </NavLink>
             </div>
           </div>
