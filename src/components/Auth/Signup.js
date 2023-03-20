@@ -8,6 +8,8 @@ import { API } from "../Constant/API";
 import { toast, ToastContainer } from "react-toastify";
 import Footer from "../Footer/Footer";
 
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 function Signup() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
@@ -85,6 +87,7 @@ function Signup() {
         notify();
       });
   };
+  const [value, setValue] = useState();
 
   return (
     <div>
@@ -117,16 +120,7 @@ function Signup() {
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
-                <div className="mb-6">
-                  <input
-                    type="text"
-                    name={username}
-                    className="input input-bordered w-full text-white rounded-none "
-                    id="exampleFormControlInput2"
-                    placeholder="Username"
-                    onChange={(e) => setUsername(e.target.value)}
-                  />
-                </div>
+
                 <div className="mb-6">
                   <input
                     type="text"
@@ -148,16 +142,7 @@ function Signup() {
                     onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
-                <div className="mb-6">
-                  <input
-                    type="text"
-                    name={phone}
-                    className="input input-bordered w-full text-white rounded-none "
-                    id="exampleFormControlInput2"
-                    placeholder="Phone Number"
-                    onChange={(e) => setPhone(e.target.value)}
-                  />
-                </div>
+
                 <div className="mb-6">
                   <input
                     type="text"
@@ -168,17 +153,15 @@ function Signup() {
                     onChange={(e) => setCountry(e.target.value)}
                   />
                 </div>
-
                 <div className="mb-6">
-                  <input
-                    type="text"
-                    name={address}
-                    className="input input-bordered w-full text-white rounded-none "
-                    id="exampleFormControlInput2"
-                    placeholder="City"
-                    onChange={(e) => setAddress(e.target.value)}
+                  <PhoneInput
+                    width="100%"
+                    country={"in"}
+                    value={phone}
+                    onChange={(phone) => setPhone(phone)}
                   />
                 </div>
+
                 <div className="mb-6">
                   <input
                     type="file"
