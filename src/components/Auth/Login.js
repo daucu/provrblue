@@ -51,7 +51,7 @@ function Login() {
         console.log(res.data);
         if (res.data.message === "login success") {
           console.log("Login Successfull");
-          // window.location.href = "/";
+          window.location.href = "/profile";
         } else {
           console.log("Login Failed");
           setToastify(true);
