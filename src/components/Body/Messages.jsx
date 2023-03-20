@@ -133,17 +133,60 @@ function Messages() {
               </div>
             </div>
           </div>
-          <div className="md:mt-32 mt-12 bg-[#0F0F0F] shadow-lg rounded-2xl p-8">
-            <div className="flex items-center">
-              <div className="md:w-[40%]">
-                <div className="font-normal text-white text-[18px]">
-                  Let's turn your project into a masterpiece!
+        </div>
+        <div className="md:mt-32 mt-12 bg-[#0F0F0F] shadow-lg rounded-2xl px-6 py-14">
+          <div className="md:flex items-center justify-between">
+            <div className="md:w-[30%]">
+              <div className="font-normal text-white text-[18px]">
+                Let's turn your project into a masterpiece!
+              </div>
+              <div className="font-normal mt-8 text-white text-[17px]">
+                <button className="btn bg-[#661CE6] hover:bg-[#EA2B42] text-[20px] text-white font-semibold">
+                  Talk to Us
+                </button>
+              </div>
+            </div>
+            <div className="md:w-[65%] ">
+              <div className="md:flex">
+                <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    3D Walkthroughs
+                  </div>
                 </div>
-                <div className="font-normal mt-8 text-white text-[17px]">
-                   <button className="btn bg-[#661CE6] hover:bg-[#EA2B42] text-[20px] text-white font-semibold">Talk to Us</button>
+                <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    Virtual Reality
+                  </div>
+                </div>
+                <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    Virtual Reality
+                  </div>
                 </div>
               </div>
-              <div className="md:w-[60%]">s</div>
+              <div className="md:flex">
+                <div className="md:w-[33%]   mt-4 w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    Metaverse
+                  </div>
+                </div>
+                <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    Spaces
+                  </div>
+                </div>
+                <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
+                  <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
+                  <div className="text-[white] font-extralight text-[20px] ">
+                    Marketing
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
