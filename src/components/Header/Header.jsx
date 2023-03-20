@@ -96,6 +96,7 @@ function Header() {
                 Contact Us
               </div>
             </NavLink>
+
             <NavLink
               to="/aboutus"
               className={({ isActive }) =>
@@ -104,6 +105,16 @@ function Header() {
             >
               <div className="text-white text-[18px]  border-b-[3px] border-black   font-semibold cursor-pointer hover:text-[#4614B9]   ">
                 About Us
+              </div>
+            </NavLink>
+            <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                isActive ? "border-b-[3px] border-[#4614B9]" : ""
+              }
+            >
+              <div className="text-white text-[18px]  border-b-[3px] border-black   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                Login
               </div>
             </NavLink>
           </div>
@@ -164,6 +175,11 @@ function Header() {
               <NavLink to="/blog">
                 <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
                   Blog
+                </div>
+              </NavLink>
+              <NavLink to="/contactus">
+                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                  Contact Us
                 </div>
               </NavLink>
               <NavLink to="/contactus">
