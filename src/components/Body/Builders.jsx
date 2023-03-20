@@ -38,7 +38,7 @@ function Builders() {
               <div>
                 <img src={dmlogo} alt="" className="w-[150px]  rounded-md" />
               </div>
-              <div className="md-2 text-[20px] md:mt-6 mt-4 ">
+              <div className="md-2 text-[20px] text-[#d7d7d7] md:mt-6 mt-4 ">
                 " Manish Patadia helped us to launch webAr shopping experiences
                 on our Shopify e-commerce "
               </div>
