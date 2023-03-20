@@ -34,122 +34,29 @@ function Builders() {
             </h1>
           </div>
           <div className="relative md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  mt-2">
-            <div className="w-[200px] m-auto rounded-full">
-              <img src={dmlogo} alt="" className="w-[100%] rounded-full m-auto " />
+            <div className="bg-[#251E42] p-6 md:w-[440px] m-auto rounded-md">
+              <div>
+                <img src={dmlogo} alt="" className="md:w-[150px] rounded-md" />
+              </div>
+              <div className="md-2 text-[20px] md:mt-6 mt-4 ">
+                " Manish Patadia helped us to launch webAr shopping experiences
+                on our Shopify e-commerce "
+              </div>
+              <div className="flex md:mt-6 mt-4 items-center ">
+                <div className="w-[60px] h-[60px]  rounded-full  bg-black   ">
+                  <img src="https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png"></img>
+                </div>
+                <div className="w-[75%] m-auto">
+                  <div className="font-bold text-white text-[19px]">
+                    Manish Patadia
+                  </div>
+                  <div className="font-normal text-white text-[17px]">
+                    (Founder)
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="text-white font-semibold text-[20px] m-auto text-center mt-4 ">D.M. Group</div>
           </div>
-          {/* create a flex wrap div  */}
-          {/* <div className="relative   flex md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  flex-wrap justify-self-start mt-2">
-            <div className="w-[150px] h-[80px]  m-2">
-              <img src={ab} alt="" className="w-[100%] h-[100%] object-cover" />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={ats}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={godrej}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={dra}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={casagrande}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={brigade}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={sattva}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={mahindra}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={sattva}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={rustomjee}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={raunakgroup}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={rustomjee}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={raunakgroup}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={rustomjee}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={raunakgroup}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-            <div className="w-[150px] h-[80px]  m-2">
-              <img
-                src={rustomjee}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
