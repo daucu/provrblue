@@ -1,7 +1,7 @@
 import React from "react";
 import { CiPlay1 } from "react-icons/ci";
 
-import video from "../Assets/video/video.mp4";
+import video from "../Assets/video/walk5.mp4";
 function Video() {
   return (
     <div>
