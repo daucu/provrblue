@@ -4,6 +4,8 @@ import "../Assets/css/header.css";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
+import axios from "axios";
+import { API } from "../Constant/API";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -16,6 +18,27 @@ function Header() {
   useEffect(() => {
     scrollToTop();
   }, []);
+
+  const [checkLogin, setCheckLogin] = useState(false);
+  const checkUserLogin = () => {
+    axios
+      .get(`${API}/profile`, {
+        withCredentials: true,
+      })
+      .then((res) => {
+        console.log(res);
+        if (res.status === 200) {
+          setCheckLogin(200);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  useEffect(() => {
+    checkUserLogin();
+  }, []);
+
   return (
     <>
       <div className="containerHead bg-[#000000] p-[5px] fixed z-10 w-full">
@@ -107,16 +130,29 @@ function Header() {
                 About Us
               </div>
             </NavLink>
-            <NavLink
-              to="/login"
-              className={({ isActive }) =>
-                isActive ? "border-b-[3px] border-[#4614B9]" : ""
-              }
-            >
-              <div className="text-white text-[18px]  border-b-[3px] border-black   font-semibold cursor-pointer hover:text-[#4614B9]   ">
-                Login
-              </div>
-            </NavLink>
+            {checkLogin === 200 ? (
+              <NavLink
+                to="/profile"
+                className={({ isActive }) =>
+                  isActive ? "border-b-[3px] border-[#4614B9]" : ""
+                }
+              >
+                <div className="text-white text-[18px]  border-b-[3px] border-black   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                  Profile
+                </div>
+              </NavLink>
+            ) : (
+              <NavLink
+                to="/login"
+                className={({ isActive }) =>
+                  isActive ? "border-b-[3px] border-[#4614B9]" : ""
+                }
+              >
+                <div className="text-white text-[18px]  border-b-[3px] border-black   font-semibold cursor-pointer hover:text-[#4614B9]   ">
+                  Login
+                </div>
+              </NavLink>
+            )}
           </div>
           <div>
             <button
@@ -193,11 +229,19 @@ function Header() {
                   About Us
                 </div>
               </NavLink>
-              <NavLink to="/login">
-                <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
-                  Login
-                </div>
-              </NavLink>
+              {checkLogin === 200 ? (
+                <NavLink to="/profile">
+                  <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                    Profile
+                  </div>
+                </NavLink>
+              ) : (
+                <NavLink to="/login">
+                  <div className="cursor-pointer mt-2 ml-4 text-[19px]  ">
+                    Login
+                  </div>
+                </NavLink>
+              )}
             </div>
           </div>
         </div>

@@ -2,12 +2,14 @@ import axios from "axios";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Login from "./components/Auth/Login";
+import Protected from "./components/Auth/Protected";
 import Signup from "./components/Auth/Signup";
 import AboutUs from "./components/Body/AboutUs";
 import Blog from "./components/Body/Blog";
 import Contactus from "./components/Body/Contactus";
 import Home from "./components/Body/Home";
 import Metaverse from "./components/Body/Metaverse";
+import ProfilePage from "./components/Body/ProfilePage";
 import Spaces from "./components/Body/Spaces";
 import SuccessStories from "./components/Body/SuccessStories";
 axios.defaults.withCredentials = true;
@@ -25,6 +27,8 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/protected" element={<Protected />} />
       </Routes>
     </div>
   );
