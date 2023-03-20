@@ -3,7 +3,7 @@ import dot2 from "../Assets/Images/dot2.webp";
 
 function Messages() {
   return (
-    <div className="md:mt-52 mt-12">
+    <div className="">
       <div
         className="bg-cover  bg-no-repeat bg-left w"
         style={{
