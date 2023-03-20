@@ -34,9 +34,9 @@ function Builders() {
             </h1>
           </div>
           <div className="relative md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  mt-2">
-            <div className="bg-[#251E42] p-6 md:w-[440px] m-auto rounded-[30px]">
+            <div className="bg-[#251E42] p-6 md:w-[440px] w-[350px] m-auto rounded-[30px]">
               <div>
-                <img src={dmlogo} alt="" className="md:w-[150px] rounded-md" />
+                <img src={dmlogo} alt="" className="w-[150px]  rounded-md" />
               </div>
               <div className="md-2 text-[20px] md:mt-6 mt-4 ">
                 " Manish Patadia helped us to launch webAr shopping experiences
