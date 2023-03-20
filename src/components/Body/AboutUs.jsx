@@ -16,6 +16,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Header from "../Header/Header";
+import Messages from "./Messages";
 function AboutUs() {
   // const scrollToTop = () => {
   //   window.scrollTo({
@@ -237,18 +238,18 @@ function AboutUs() {
               <div className="md:w-[30%] w-full">
                 <img src={Office} alt="" srcset="" className="w-full" />
               </div>
-              <div className="md:w-[60%] w-full font-normal text-white md:text-[20px] text-[18px]">
+              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white md:text-[20px] text-[18px]">
                 Neuractory - where innovation meets AI! Our cutting-edge tech
                 lab is paving the way for next-gen camera and web technology.
                 With expertise in augmented reality, machine learning, and
                 computer vision, we're redefining what's possible.
               </div>
             </div>
-            <div className="md:flex md:mt-24 justify-between items-center ">
+            <div className="md:flex md:mt-24 mt-12 justify-between items-center ">
               <div className="md:w-[30%] w-full">
                 <img src={vrr} alt="" srcset="" className="w-full" />
               </div>
-              <div className="md:w-[60%] w-full font-normal text-white md:text-[20px] text-[18px]">
+              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white md:text-[20px] text-[18px]">
                 We wrapped our technology into a solid AR development platform
                 and packaged it to make it accessible to all – brands and
                 end-users – so it reveals a seamless experience across millions
@@ -258,6 +259,17 @@ function AboutUs() {
                 people to express themselves in the digital realm.
               </div>
             </div>
+            <div className="font-bold md:text-[25px] text-[20px] text-white md:mt-24 mt-8 text-center">
+              Join our rowdy squad of creators
+            </div>
+            <div className="text-[#d7d7d7] mt-4 text-center">
+              We are a dynamic team of marketers, hustlers, innovators, tech
+              whizzes, and trailblazers revolutionizing the customer experience
+              single lens at a go.
+            </div>
+          </div>
+          <div className="">
+            <Messages />
           </div>
         </div>
       </div>
