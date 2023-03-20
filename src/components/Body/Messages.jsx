@@ -147,7 +147,7 @@ function Messages() {
               </div>
             </div>
             <div className="md:w-[65%] ">
-              <div className="md:flex">
+              <div className="md:flex md:mt-0 mt-6">
                 <div className="md:w-[33%]  mt:mt-0 mt-4  w-full flex items-center  ">
                   <div className="w-[50px] h-[50px]  bg-[#191919] rounded-xl  mr-4"></div>
                   <div className="text-[white] font-extralight text-[20px] ">
