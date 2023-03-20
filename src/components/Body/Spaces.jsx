@@ -16,6 +16,7 @@ import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Footer from "../Footer/Footer";
 import { Autoplay, Pagination } from "swiper";
+import Messages from "./Messages";
 function Spaces() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -31,7 +32,7 @@ function Spaces() {
       <div className="md:pb-40  pb-36">
         <Header />
       </div>
-      <div></div>
+       
       <div className="md:w-[75%] w-[85%] m-auto text-center">
         <div className="text-whtie  text-center  text-white font-semibold md:text-[30px] text-[20px]">
           Get Ahead of the Game Leveraging the Latest Tech Innovations
@@ -190,6 +191,9 @@ function Spaces() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <Messages />
       </div>
       <div>
         <Footer />

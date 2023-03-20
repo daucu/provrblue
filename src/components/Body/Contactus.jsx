@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import ct from "../Assets/Images/ctc.png";
+import Messages from "./Messages";
 function Contactus() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -1061,6 +1062,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
           </div>
         </div>
       </>
+
       <div>
         <Footer className="mt-0" />
       </div>

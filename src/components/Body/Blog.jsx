@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import ig from "../Assets/Images/gifs.gif";
 import er from "../Assets/Images/er.gif";
+import Messages from "./Messages";
 function Blog() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -70,6 +71,9 @@ function Blog() {
             any AR/VR needs!
           </div>
         </div>
+      </div>
+      <div>
+        <Messages />
       </div>
       <div>
         <Footer />

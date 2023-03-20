@@ -5,6 +5,7 @@ import walk3 from "../Assets/video/walk3.mp4";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { TfiReload } from "react-icons/tfi";
 import { MdPhotoSizeSelectLarge } from "react-icons/md";
+import Messages from "./Messages";
 
 function SuccessStories() {
   const scrollToTop = () => {
@@ -29,7 +30,6 @@ function SuccessStories() {
             muted
             playsInline
             className="w-[100%] h-[100vh] object-cover"
-          
           />
           {/*  add button on the video  */}
           <div className="absolute flex items-center bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -47,6 +47,9 @@ function SuccessStories() {
             </button>
           </div>
         </div>
+      </div>
+      <div>
+        <Messages />
       </div>
       <Footer />
     </div>

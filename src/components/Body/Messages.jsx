@@ -65,7 +65,7 @@ function Messages() {
                         type="text"
                         name=""
                         id=""
-                        className="input input-bordered w-full  bg-[#191919] "
+                        className="input input-bordered w-full rounded-none  bg-[#191919] "
                       />
                     </div>
                   </div>
@@ -78,7 +78,7 @@ function Messages() {
                         type="text"
                         name=""
                         id=""
-                        className="input input-bordered w-full   bg-[#191919] "
+                        className="input input-bordered w-full rounded-none   bg-[#191919] "
                       />
                     </div>
                   </div>
@@ -93,7 +93,7 @@ function Messages() {
                         type="text"
                         name=""
                         id=""
-                        className="input input-bordered w-full  bg-[#191919] "
+                        className="input input-bordered w-full rounded-none  bg-[#191919] "
                       />
                     </div>
                   </div>
@@ -106,7 +106,7 @@ function Messages() {
                         type="text"
                         name=""
                         id=""
-                        className="input input-bordered w-full  bg-[#191919] "
+                        className="input input-bordered w-full rounded-none  bg-[#191919] "
                       />
                     </div>
                   </div>

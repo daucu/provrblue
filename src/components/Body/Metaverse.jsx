@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import wal from "../Assets/video/wal4.mp4"
+import wal from "../Assets/video/wal4.mp4";
+import Messages from "./Messages";
 function Metaverse() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -30,11 +31,15 @@ function Metaverse() {
           <div className="md:flex md:mt-8 mt-4 items-center ">
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]">500+</div>
-              <div className="font-semibold text-[#d7d7d7] ">Projects Delivered</div>
+              <div className="font-semibold text-[#d7d7d7] ">
+                Projects Delivered
+              </div>
             </div>
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]"> 50+</div>
-              <div className="font-semibold text-[#d7d7d7] ">Ongoing Projects</div>
+              <div className="font-semibold text-[#d7d7d7] ">
+                Ongoing Projects
+              </div>
             </div>
             <div className=" md:w-1/3 w-full">
               <div className="font-bold text-white text-[25px]"> 10+</div>
@@ -63,13 +68,13 @@ function Metaverse() {
           </div>
           <div className="p-6 mt-8">
             <video className="mt-4" controls>
-              <source
-                src={wal}
-                type="video/mp4"
-              />
+              <source src={wal} type="video/mp4" />
             </video>
           </div>
         </div>
+      </div>
+      <div>
+        <Messages />
       </div>
       <div>
         <Footer />
