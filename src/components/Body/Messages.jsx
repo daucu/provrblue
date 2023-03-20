@@ -10,7 +10,7 @@ function Messages() {
           backgroundImage: `url(${dot2})`,
           backgroundSize: "30%",
           backgroundPosition: "left",
-          
+
           padding: "5%",
         }}
       >
@@ -131,6 +131,19 @@ function Messages() {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="md:mt-32 mt-12 bg-[#0F0F0F] shadow-lg rounded-2xl p-8">
+            <div className="flex items-center">
+              <div className="md:w-[40%]">
+                <div className="font-normal text-white text-[18px]">
+                  Let's turn your project into a masterpiece!
+                </div>
+                <div className="font-normal mt-8 text-white text-[17px]">
+                   <button className="btn bg-[#661CE6] hover:bg-[#EA2B42] text-[20px] text-white font-semibold">Talk to Us</button>
+                </div>
+              </div>
+              <div className="md:w-[60%]">s</div>
             </div>
           </div>
         </div>
