@@ -160,7 +160,7 @@ function Pricing() {
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
                   <div className="text-[#222] text-[13px] text-center">
-                    (Only the Exterior +   Any 1 Amenity Included)
+                    (Only the Exterior + Any 1 Amenity Included)
                   </div>
                 </div>
               </div>
@@ -383,7 +383,7 @@ function Pricing() {
                 <div className="w-[30%]">
                   <img src={tick} alt="" className="w-[20px] m-auto  " />
                   <div className="text-[#222] text-[13px] text-center">
-                  (All the Exterior + All the   Amenities are Included in this)
+                    (All the Exterior + All the Amenities are Included in this)
                   </div>
                 </div>
               </div>
