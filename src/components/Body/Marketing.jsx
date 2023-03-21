@@ -17,12 +17,12 @@ function Marketing() {
         <div className="md:flex justify-evenly md:mt-16 mt-12  py-12 rounded-lg ">
           <div className="md:w-1/3 w-full p-2 text-center md:mt-0 mt-8 ">
             <div className="bg-[#E6F2FD] w-[100px] m-auto p-6 rounded-full">
-              <HiOutlineDesktopComputer className="text-[#0F6AE7] text-[50px]" />
+              <HiOutlineDesktopComputer className="text-[#4614B9] text-[50px]" />
             </div>
-            <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[22px] text-[18px] text-white mt-4">
+            <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[20px] text-[17px] text-white mt-4">
               Easily share on desktop, mobile and VR
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]  text-[#d7d7d7]   text-center mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[17px] text-[14px]  text-[#d7d7d7]   text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.
@@ -30,12 +30,12 @@ function Marketing() {
           </div>
           <div className="md:w-1/3 w-full p-2 text-center md:mt-0 mt-8 ">
             <div className="bg-[#E6F2FD] w-[100px] m-auto p-6 rounded-full">
-              <SlEnergy className="text-[#0F6AE7] text-[50px]" />
+              <SlEnergy className="text-[#4614B9] text-[50px]" />
             </div>
-            <div className="text-center   md:w-[85%] w-[95%] m-auto md:text-[22px] text-[18px] text-white mt-4">
+            <div className="text-center   md:w-[85%] w-[95%] m-auto md:text-[20px] text-[17px] text-white mt-4">
               Stand out with interactive presentations
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]  text-[#d7d7d7]   text-center mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[17px] text-[14px]  text-[#d7d7d7]   text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.
@@ -43,12 +43,12 @@ function Marketing() {
           </div>
           <div className="md:w-1/3 w-full p-2 text-center md:mt-0 mt-8 ">
             <div className="bg-[#E6F2FD] w-[100px] m-auto p-6 rounded-full">
-              <BsDropbox className="text-[#0F6AE7] text-[50px]" />
+              <BsDropbox className="text-[#4614B9] text-[50px]" />
             </div>
-            <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[22px] text-[18px] text-white mt-4">
+            <div className="text-center  md:w-[85%] w-[95%] m-auto  md:text-[20px] text-[17px] text-white mt-4">
               Use the 3D modelling tools you know
             </div>
-            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[18px] text-[16px]  text-[#d7d7d7]   text-center mt-4">
+            <div className=" md:w-[85%] w-[95%] m-auto  md:text-[17px] text-[14px]  text-[#d7d7d7]   text-center mt-4">
               Simply send a link or embed the walkthrough in a website - clients
               can explore the design on any device. Create a 3D Meeting to have
               a video conversation within your walkthrough.

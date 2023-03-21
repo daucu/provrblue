@@ -34,58 +34,58 @@ function Solutions() {
             </div>
           </div>
           <div className="md:w-1/2 w-[95%] m-auto ">
-            <div className="md:flex justify-evenly ">
-              <div className="p-4 rounded-sm md:w-[250px] w-full ">
+            <div className="md:flex justify-around ">
+              <div className="p-4 rounded-sm md:w-[280px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={bag} alt="" />
                 </div>
-                <div className="text-white text-[22px] font-semibold mt-2">
+                <div className="text-white text-[20px] font-semibold mt-2">
                   High Quality
                 </div>
                 <div>
-                  <div className="text-white text-[17px] font-extralight mt-4">
+                  <div className="text-white text-[15px] font-extralight mt-4">
                     Quality, Speed, Affordability - Choose All Three with Us!
                   </div>
                 </div>
               </div>
-              <div className="p-4 rounded-sm md:w-[250px] w-full ">
+              <div className="p-4 rounded-sm md:w-[280px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={VRIcon} alt="" />
                 </div>
-                <div className="text-white text-[22px] font-semibold mt-2">
+                <div className="text-white text-[20px] font-semibold mt-2">
                   Universal compatibility
                 </div>
                 <div>
-                  <div className="text-white text-[17px] font-extralight mt-4">
+                  <div className="text-white text-[15px] font-extralight mt-4">
                     Experience Our Products on Any Device, Anywhere, Anytime
                   </div>
                 </div>
               </div>
             </div>
-            <div className="md:flex justify-evenly">
-              <div className="p-4 rounded-sm md:w-[250px] w-full ">
+            <div className="md:flex justify-around">
+              <div className="p-4 rounded-sm md:w-[280px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={Users} alt="" />
                 </div>
-                <div className="text-white text-[22px] font-semibold mt-2">
+                <div className="text-white text-[20px] font-semibold mt-2">
                   Highly Engaging
                 </div>
                 <div>
-                  <div className="text-white text-[17px] font-extralight mt-4">
+                  <div className="text-white text-[15px] font-extralight mt-4">
                     Design options brought to life - see your project in a
                     realistic 3D
                   </div>
                 </div>
               </div>
-              <div className="p-4 rounded-sm md:w-[250px] w-full ">
+              <div className="p-4 rounded-sm md:w-[280px] w-full ">
                 <div className="w-[80px] h-[80px]">
                   <img src={userIcon} alt="" />
                 </div>
-                <div className="text-white text-[22px] font-semibold mt-2">
+                <div className="text-white text-[20px] font-semibold mt-2">
                   Boost Client Decisions
                 </div>
                 <div>
-                  <div className="text-white text-[17px] font-extralight mt-4">
+                  <div className="text-white text-[15px] font-extralight mt-4">
                     Empower your clients with immersive experiences and informed
                     decisions through Interactive 3D Solutions.
                   </div>

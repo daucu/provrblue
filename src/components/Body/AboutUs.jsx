@@ -9,7 +9,7 @@ import Office from "../Assets/Images/Office.jpg";
 import Manoj1 from "../Assets/Images/Manoj1.png";
 import dsd from "../Assets/Images/dsd.png";
 import { Autoplay, Pagination } from "swiper";
-import dmlogo from "../Assets/Images/dmlogo.jfif";
+import dmlogo from "../Assets/Images/dm1.png";
 import Footer from "../Footer/Footer";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -251,7 +251,7 @@ function AboutUs() {
                 src={dmlogo}
                 alt=""
                 srcset=""
-                className="md:w-[300px] m-auto"
+                className="w-[150px] m-auto"
               />
               <div className="text-white text-[20px] text-center mt-2">
                 D.M Group

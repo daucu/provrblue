@@ -1,6 +1,6 @@
 import React from "react";
 import dotted from "../Assets/Images/dotted.webp";
-import dmlogo from "../Assets/Images/dmlogo.jfif";
+import dmlogo from "../Assets/Images/dm1.png";
 import ab from "../Assets/Images/ab.webp";
 import ats from "../Assets/Images/ats.webp";
 import bhutani from "../Assets/Images/bhutani.webp";
@@ -36,7 +36,7 @@ function Builders() {
           <div className="relative md:w-[80%] w-[100%] m-auto md:justify-center  justify-between  mt-2">
             <div className="bg-[#251E42] p-6 md:w-[440px] w-[350px] m-auto rounded-[30px]">
               <div>
-                <img src={dmlogo} alt="" className="w-[150px]  rounded-md" />
+                <img src={dmlogo} alt="" className="w-[100px]  rounded-md" />
               </div>
               <div className="md-2 text-[20px] text-[#d7d7d7] md:mt-6 mt-4 ">
                 " Manish Patadia helped us to launch webAr shopping experiences
