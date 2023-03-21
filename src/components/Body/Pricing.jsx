@@ -21,10 +21,6 @@ function Pricing() {
     setPremiumPlan(false);
   };
 
-  
-
-
-
   return (
     <div>
       {/* component */}
@@ -522,7 +518,10 @@ function Pricing() {
         </div>
         <div
           className={
-            ((containerOne || containerTwo ) && !(containerOne ==="" && containerTwo ==="") ) ? "fixed bottom-0 right-0 w-full flex justify-end rounded-xl" : "hidden"
+            (containerOne || containerTwo) &&
+            !(containerOne === "" && containerTwo === "")
+              ? "fixed bottom-0 right-0 w-full flex justify-end rounded-xl"
+              : "hidden"
           }
         >
           <div
@@ -573,19 +572,7 @@ function Pricing() {
             </div>
             <div className="px-6 py-6 ">
               <div className="overflow-y-scroll h-[324px]">
-                <div className="flex">
-                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
-                    <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
-                    </p>
-                  </div>
-                  <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <p className="text-[14px] leading-[20px] text-white">
-                      Upto 30 users
-                    </p>
-                  </div>
-                </div>
-                <div className="flex">
+                <div className="flex mt-4 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
                       Virtual Sales Tool
@@ -601,10 +588,24 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-4 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">3D Modeling</p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-4 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      Real-Time Rendering
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -617,10 +618,11 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-4 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      Augmented Reality(AR) View (AR floorplans and Project
+                      Visualization)
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -633,10 +635,10 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-4 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      360-Degree Views
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -649,10 +651,11 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-24 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      Isometric Floor Plan View (See Your Dream Place from
+                      Above)
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -665,10 +668,11 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-24 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      360 Virtual Tour Of Interiors (Take a Virtual Stroll
+                      Through Our Interiors with 360 Virtual Tour)
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -681,10 +685,12 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-24 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      Amenities 3D Renders And 360 Renders (Discover the
+                      Amenities in Stunning Detail with 3D Renders and 360
+                      Views)
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
@@ -697,10 +703,11 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex mt-24 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
-                      Virtual Sales Tool
+                      Touchscreen Support (Tablet, Smart Screens, Mobile,
+                      Desktops, and Laptops)
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
