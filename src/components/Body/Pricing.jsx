@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import dot2 from "../Assets/Images/dot2.webp";
 import tick from "../Assets/Images/tick.webp";
 
@@ -20,6 +20,10 @@ function Pricing() {
   const handlePremiumPlanClose = () => {
     setPremiumPlan(false);
   };
+
+  
+
+
 
   return (
     <div>
@@ -469,7 +473,7 @@ function Pricing() {
                 <div
                   className="hover:opacity-75 text-white underline text-lg font-normal cursor-pointer "
                   data-v-123669ee=""
-                  // onClick={() => setContainerOne(true)}
+                  onClick={() => setContainerOne(true)}
                 >
                   View Details
                 </div>
@@ -508,7 +512,7 @@ function Pricing() {
                 <div
                   className="hover:opacity-75 text-white underline text-lg font-normal cursor-pointer"
                   data-v-123669ee=""
-                  // onClick={() => setContainerTwo(true)}
+                  onClick={() => setContainerTwo(true)}
                 >
                   View Details
                 </div>
@@ -518,7 +522,7 @@ function Pricing() {
         </div>
         <div
           className={
-            containerOne || containerTwo ? "fixed bottom-0 right-0" : "hidden"
+            ((containerOne || containerTwo ) && !(containerOne ==="" && containerTwo ==="") ) ? "fixed bottom-0 right-0 w-full flex justify-end rounded-xl" : "hidden"
           }
         >
           <div
@@ -526,8 +530,8 @@ function Pricing() {
               containerOne === ""
                 ? "hidden"
                 : containerOne
-                ? "w-full sm:w-[450px] bg-[#191919] animate-slide_up relative top-[320px]"
-                : "w-full sm:w-[450px] bg-[#191919] animate-slide_down"
+                ? "w-full sm:w-[450px] bg-[#191919] animate-slide_up relative h-[400px] rounded-2xl"
+                : "hidden"
             }
           >
             <div className="h-[76px] px-6 bg-[#4600B9] rounded-t-2xl min-w-full text-white flex items-center justify-between">
@@ -567,8 +571,8 @@ function Pricing() {
                 </button>
               </div>
             </div>
-            <div className="px-6 py-6 max-h-[320px]">
-              <div className="oveflow-y-scroll">
+            <div className="px-6 py-6 ">
+              <div className="overflow-y-scroll h-[324px]">
                 <div className="flex">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
@@ -717,8 +721,8 @@ function Pricing() {
               containerTwo === ""
                 ? "hidden"
                 : containerTwo
-                ? "w-full sm:w-[450px] bg-[#191919] animate-slide_up relative top-[320px]"
-                : "w-full sm:w-[450px] bg-[#191919] animate-slide_down"
+                ? "w-full sm:w-[450px] bg-[#191919] animate-slide_up relative h-[400px] rounded-2xl"
+                : "hidden"
             }
           >
             <div className="h-[76px] px-6 bg-[#4600B9] rounded-t-2xl min-w-full text-white flex items-center justify-between">
@@ -758,8 +762,8 @@ function Pricing() {
                 </button>
               </div>
             </div>
-            <div className="px-6 py-6 max-h-[320px]">
-              <div className="oveflow-y-scroll">
+            <div className="px-6 py-6 ">
+              <div className="overflow-y-scroll h-[324px]">
                 <div className="flex">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
