@@ -651,7 +651,7 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="flex mt-24 ">
+                <div className="flex mt-12 ">
                   <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
                     <p className="text-[14px] leading-[20px]">
                       Isometric Floor Plan View (See Your Dream Place from
@@ -717,6 +717,187 @@ function Pricing() {
                         alt=""
                         className="rounded-full h-full w-full"
                       />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Advertisement(OPTIONAL) (Digital Marketing)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Balcony Views From Different Floors (Step onto the Balcony
+                      with a Click)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Project Walkthrough Video (A guided video tour of the
+                      space)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Exterior And Interior Images (High-resolution Images for
+                      promotional materials)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Scene Modifications/ Edits
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[28px]">
+                      <img
+                        src={tick}
+                        alt=""
+                        className="rounded-full h-full w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Custom Website (OPTIONAL) (Unleash Your Creativity with a
+                      Custom Website Designed)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Branding (Custom Logo/Information Add-ons)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Complete Project 3D (See Every Detail of Our Project Come
+                      to Life in 3D)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Virtual Reality Viewing (Headset/Oculus support)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Complete Amenities 3D (Immersive 3D Amenities View)
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Customizable Furniture and Finishes
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Customizable Lighting
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
+                    </div>
+                  </div>
+                </div>
+                <div className="flex mt-12 ">
+                  <div className="h-[52px] text-white flex flex-col justify-center text-left w-1/2">
+                    <p className="text-[14px] leading-[20px]">
+                      Interactive Furniture Placement
+                    </p>
+                  </div>
+                  <div className="h-[52px] flex items-center justify-center w-1/2">
+                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                      ( - )
                     </div>
                   </div>
                 </div>
