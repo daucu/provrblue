@@ -530,7 +530,7 @@ function Pricing() {
               containerOne === ""
                 ? "hidden"
                 : containerOne
-                ? "w-full sm:w-[450px] bg-[#191919] animate-slide_up relative h-[400px] rounded-2xl"
+                ? "w-[90%] sm:w-[450px] bg-[#191919] animate-slide_up relative h-[400px] rounded-2xl"
                 : "hidden"
             }
           >
