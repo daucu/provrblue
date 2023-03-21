@@ -175,61 +175,61 @@ function Pricing() {
               </td>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(2 Elements)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(2 elements plans)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(1 elements plans)</div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(Any 1 Floor)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] w-[70%] text-center m-auto ">
@@ -237,7 +237,7 @@ function Pricing() {
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] w-[70%]  text-center m-auto ">
@@ -245,7 +245,7 @@ function Pricing() {
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] w-[70%]  text-center m-auto ">
@@ -322,61 +322,61 @@ function Pricing() {
               </td>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col 	 items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(All Elements)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(All Elements)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(All Elements)</div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px] ">(All Floors)</div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px]  w-[90%]   text-center ">
@@ -384,7 +384,7 @@ function Pricing() {
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px]  w-[90%]  text-center ">
@@ -392,43 +392,43 @@ function Pricing() {
               </div>
             </div>
             <div className="h-[64px] w-full flex flex-col items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
               <div className="text-[13px]  w-[90%]  text-center ">6 - Free</div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
             <div className="h-[64px] w-full flex items-center justify-center">
-              <div className="h-[28px] w-[28px]">
+              <div className="h-[38px] w-[38px]">
                 <img src={tick} alt="" className="rounded-full h-full w-full" />
               </div>
             </div>
@@ -579,7 +579,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -593,7 +593,7 @@ function Pricing() {
                     <p className="text-[14px] leading-[20px]">3D Modeling</p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -609,7 +609,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -626,7 +626,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -642,7 +642,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -659,7 +659,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -676,7 +676,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -694,7 +694,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -711,7 +711,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -727,7 +727,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -744,7 +744,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -761,7 +761,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -778,7 +778,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -794,7 +794,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -811,7 +811,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -823,7 +823,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -836,7 +836,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -848,7 +848,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -860,7 +860,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -872,7 +872,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -884,7 +884,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -896,7 +896,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[38px] text-white text-[20px]">
+                    <div className="h-[38px] w-[38px] text-white text-[20px]">
                       ( - )
                     </div>
                   </div>
@@ -971,7 +971,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -987,7 +987,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1003,7 +1003,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1019,7 +1019,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1035,7 +1035,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1051,7 +1051,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1067,7 +1067,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
@@ -1083,7 +1083,7 @@ function Pricing() {
                     </p>
                   </div>
                   <div className="h-[52px] flex items-center justify-center w-1/2">
-                    <div className="h-[28px] w-[28px]">
+                    <div className="h-[38px] w-[38px]">
                       <img
                         src={tick}
                         alt=""
