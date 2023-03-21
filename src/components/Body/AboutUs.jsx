@@ -9,7 +9,7 @@ import Office from "../Assets/Images/Office.jpg";
 import Manoj1 from "../Assets/Images/Manoj1.png";
 import dsd from "../Assets/Images/dsd.png";
 import { Autoplay, Pagination } from "swiper";
-
+import dmlogo from "../Assets/Images/dmlogo.jfif";
 import Footer from "../Footer/Footer";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -99,13 +99,22 @@ function AboutUs() {
               <Swiper
                 // breakpoints for responsive design
                 breakpoints={{
+
+                  480: {
+                    width: 480,
+                    slidesPerView: 2,
+                  },
+                  500: {
+                    width: 500,
+                    slidesPerView: 2,
+                  },
                   640: {
                     width: 640,
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                   },
                   768: {
                     width: 768,
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                   },
                   1024: {
                     width: 1024,
@@ -126,7 +135,7 @@ function AboutUs() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <div>
+                  <div className=" ">
                     <div className="h-[400px]">
                       <img
                         src={Manish1}
@@ -147,7 +156,7 @@ function AboutUs() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div>
+                  <div className="">
                     <div className="h-[400px]">
                       <img
                         src={Dhruvil1}
@@ -233,6 +242,22 @@ function AboutUs() {
               </Swiper>
             </div>
           </div>
+          <div className="md:mt-32 mt-8">
+            <div className="text-white font-semibold text-center md:text-[30px] text-[20px]">
+              Our Partners
+            </div>
+            <div className="  mt-6">
+              <img
+                src={dmlogo}
+                alt=""
+                srcset=""
+                className="md:w-[300px] m-auto"
+              />
+              <div className="text-white text-[20px] text-center mt-2">
+                D.M Group
+              </div>
+            </div>
+          </div>
           <div className="md:mt-36 mt-8">
             <div className="md:flex justify-between items-center ">
               <div className="md:w-[30%] w-full">
@@ -273,7 +298,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
-       
+
       <div>
         <Footer />
       </div>
