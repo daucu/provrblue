@@ -18,15 +18,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Header from "../Header/Header";
 import Messages from "./Messages";
 function AboutUs() {
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
-  // useEffect(() => {
-  //   scrollToTop();
-  // }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <>
       <div className="pb-36">

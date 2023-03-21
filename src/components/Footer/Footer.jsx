@@ -2,7 +2,7 @@ import React from "react";
 // import logo from "../Assets/Images/propvrwhite1.webp";
 import { BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 import logo from "../Assets/Images/n_logo.png";
-import dmlogo from "../Assets/Images/dmlogo.jfif";
+import dmlogo from "../Assets/Images/dm1.png";
 
 function Footer() {
   return (
@@ -64,7 +64,7 @@ function Footer() {
               Partnering
             </h1>
             <div className="mt-4">
-              <img src={dmlogo} className="w-[250px]" />
+              <img src={dmlogo} className="w-[130px]" />
               <div className="mt-2 text-white">D.M Group</div>
             </div>
           </div>
