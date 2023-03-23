@@ -63,19 +63,24 @@ function BlogHeader() {
               </Link>
             </div>
             <div className="flex mt-4 flex-col justify-center ">
-              <Link to="/">
+              <Link to="/vr">
                 <div className="text-[20px]  text-blue-500 ">
                   Virtual Reality
                 </div>
               </Link>
             </div>
             <div className="flex mt-4 flex-col justify-center ">
-              <Link to="/">
+              <Link to="/metaverseblog">
                 <div className="text-[20px]  text-blue-500 ">Metaverse</div>
               </Link>
             </div>
             <div className="flex mt-4 flex-col justify-center ">
-              <Link to="/">
+              <Link to="/journey">
+                <div className="text-[20px]  text-blue-500 ">Journey</div>
+              </Link>
+            </div>
+            <div className="flex mt-4 flex-col justify-center ">
+              <Link to="/branding">
                 <div className="text-[20px]  text-blue-500 ">
                   Property Branding
                 </div>
