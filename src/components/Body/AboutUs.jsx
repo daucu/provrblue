@@ -99,7 +99,6 @@ function AboutUs() {
               <Swiper
                 // breakpoints for responsive design
                 breakpoints={{
-
                   480: {
                     width: 480,
                     slidesPerView: 2,
@@ -247,12 +246,7 @@ function AboutUs() {
               Our Partners
             </div>
             <div className="  mt-6">
-              <img
-                src={dmlogo}
-                alt=""
-                srcset=""
-                className="w-[150px] m-auto"
-              />
+              <img src={dmlogo} alt="" srcset="" className="w-[150px] m-auto" />
               <div className="text-white text-[20px] text-center mt-2">
                 D.M Group
               </div>
@@ -284,10 +278,10 @@ function AboutUs() {
                 people to express themselves in the digital realm.
               </div>
             </div>
-            <div className="font-bold md:text-[25px] text-[20px] text-white md:mt-24 mt-8 text-center">
+            <div className="font-bold md:text-[25px] text-[20px] w-[85%] m-auto  text-white md:mt-24 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
-            <div className="text-[#d7d7d7] mt-4 text-center">
+            <div className="text-[#d7d7d7]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
               We are a dynamic team of marketers, hustlers, innovators, tech
               whizzes, and trailblazers revolutionizing the customer experience
               single lens at a go.
