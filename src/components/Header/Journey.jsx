@@ -13,15 +13,15 @@ import cp from "../Assets/Images/cp1.jpg";
 import cp2 from "../Assets/Images/cp2.png";
 import BlogFooter from "../Footer/BlogFooter";
 function Journey() {
-  //   const scrollToTop = () => {
-  //     window.scrollTo({
-  //       top: 0,
-  //       behavior: "smooth",
-  //     });
-  //   };
-  //   useEffect(() => {
-  //     scrollToTop();
-  //   }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-white">
       <div className="md:pb-20 bg-white ">
@@ -39,52 +39,9 @@ function Journey() {
             <div className="text-[18px] hover:underline"> Journey</div>
           </Link>
         </div>
-        <div
-          className="font-semibold md:mt-8 mt-4 text-[black] md:text-[20px] "
-          style={{
-            // bgimage
-            backgroundImage: `url(${hands})`,
-            borderRadius: "10px",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <div className="md:w-[60%] p-8 m-auto">
-            <div className="mt-12">
-              A story to unfold, with every twist and turn In the realm of
-              imagination, a journey yearned Where reality blends with fantasy
-              so free Generative storytelling, a tale to be.
-            </div>
 
-            <div className="mt-12">
-              With the power of AR/VR, the journey begins A new world to
-              explore, an experience to win A story, a journey, so dynamic and
-              true Blurring the lines, between me and you.
-            </div>
-
-            <div className="mt-12">
-              Generative AI, the mind to conceive The power to create, a story
-              to believe A tale that evolves, as we explore the land A world so
-              immersive, at our command.
-            </div>
-
-            <div className="mt-12">
-              Together they form, a union so grand Telling tales that are
-              unique, a story at hand Innovative storytelling, the future so
-              bright With AR/VR and Generative AI, a world of delight.
-            </div>
-
-            <div className="mt-12">
-              So let us embark, on this journey so grand With Generative
-              Storytelling and AR/VR at hand A world of imagination, a story to
-              unfold A journey so magical, a tale to be told.
-            </div>
-          </div>
-        </div>
         <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          Blurring the Lines: An Immersive Journey through Generative
-          Storytelling and AR/VR
+          Why 3D Floorplans Are a Game-Changer for Construction Business Agents?
         </div>
         <div className="md:flex md:mt-8 mt-4 items-center justify-evenly">
           <div className="md:w-[30%]">
@@ -336,126 +293,15 @@ function Journey() {
             imagination come together to create an experience that transcends
             beyond reality. "
           </div>
+          <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
+            As the technology continues to evolve and improve, we can expect to
+            see more and more innovative applications of AR/VR and generative AI
+            in the storytelling industry. Whether it be in video games, movies,
+            tourism, or other industries, the potential for dynamic storytelling
+            using these technologies is limitless, and the future looks bright.
+          </div>
         </div>
 
-        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          Privacy, Security & Identity in the Metaverse
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          It is estimated that by 2025, the global economy will be worth $23
-          trillion – with $10 trillion of that coming from the Metaverse. The
-          Metaverse is a virtual world where people can interact with each other
-          and digital objects in a realistic way. It is also a place where
-          businesses can operate, and where people can buy and sell goods and
-          services.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          The Metaverse has the potential to revolutionize how we live, work,
-          and play. But it also poses some challenges in terms of privacy,
-          security, and identity. In this section, we'll take a look at some of
-          the issues that need to be addressed in order to make the Metaverse a
-          safe and secure place for everyone.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          One of the biggest concerns around the Metaverse is privacy. How will
-          our personal data be protected in a virtual world? Who will have
-          access to it? And how will we be able to control who sees what?
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          Another issue is security. Can hackers access our virtual lives? And
-          if they do, what could they do? These are just some of the questions
-          that need to be answered in order to make the Metaverse a safe place
-          for everyone.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          Finally, there's the question of identity. In the physical world, our
-          identity is based on our physical appearance. But in the Metaverse,
-          our avatar – or digital self – could look however we want it to. So
-          how do we make sure that people are who they say they are? And how
-        </div>
-        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          The Economic Potentials of the Metaverse
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          The metaverse is a new, virtual reality-based internet where people
-          can interact with each other and create content in a 3D environment.
-          While the metaverse is still in its early stages of development, there
-          are already a number of businesses and entrepreneurs who are exploring
-          its potential.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          One of the most promising aspects of the metaverse is its potential
-          for economic activity. In a traditional 2D internet, businesses are
-          limited to selling goods and services online. However, in the
-          metaverse, businesses can create entire virtual worlds that consumers
-          can explore and purchase items from. This opens up a whole new world
-          of possibilities for businesses, and we are only just beginning to
-          scratch the surface of what's possible.
-        </div>
-        <div className="text-black italic font-bold md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          Some of the potential applications for the metaverse include:
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          <b>
-            <i>Virtual shopping malls:</i>
-          </b>{" "}
-          Consumers could browse and purchase items from your store without ever
-          having to leave their home.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          <b>
-            <i>Virtual tourist destinations:</i>
-          </b>{" "}
-          Businesses could create virtual tourism experiences that allow people
-          to "visit" different parts of the world without ever having to leave
-          their home.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          <b>
-            <i>Virtual conferences and events:</i>
-          </b>{" "}
-          Businesses could host virtual conferences and events that allow people
-          to attend from anywhere in the world.
-        </div>
-        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          Art & Culture in the Metaverse
-        </div>
-        <div className="md:mt-8 mt-4">
-          <img src={imgw5} />
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          Art and culture have always been a driving force in the development of
-          the Metaverse. From the early days of Blockchain-based applications
-          like CryptoKitties, to the sophisticated 3D virtual worlds of today,
-          the Metaverse has always been a place where creativity and culture can
-          flourish.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          The Metaverse is home to a growing number of artists and creators who
-          are using this new platform to showcase their work. In recent years,
-          we've seen an explosion of interest inMetaverse art and culture, with
-          new galleries, museums, and festivals springing up all over the world.
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          There's no doubt that the Metaverse will continue to be a hotbed of
-          creative activity in the years to come. So if you're looking for a
-          place to explore your own creativity, or just want to experience some
-          of the best art and culture that the Metaverse has to offer, be sure
-          to check out these exciting destinations:
-        </div>
-        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          Conclusion
-        </div>
-        <div className="text-black font-normal md:mt-8 mt-4 md:text-[25px] text-[20px]">
-          The Metaverse is an exciting new development in our digital world,
-          offering a whole new level of engaging experiences. With its
-          ever-growing possibilities and powerful capabilities, the Metaverse
-          promises to revolutionize how we interact with one another, consume
-          entertainment and more. The future of the Metaverse appears limitless
-          and will surely shape our world for years to come. We hope that this
-          introduction has sparked your interest in learning more about what
-          this incredible technology can offer us all.
-        </div>
         <div className="p-4 text-black text-center mt-6 text-[30px]">
           * &nbsp; * &nbsp; * &nbsp;
         </div>

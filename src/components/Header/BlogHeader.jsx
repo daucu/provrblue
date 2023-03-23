@@ -30,7 +30,10 @@ function BlogHeader() {
           >
             Journey
           </NavLink>
-          <NavLink className="itemcont text-[20px] text-blue-500 ">
+          <NavLink
+            to="/branding"
+            className="itemcont text-[20px] text-blue-500 "
+          >
             Property Branding
           </NavLink>
         </div>
