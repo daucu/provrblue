@@ -4,6 +4,7 @@ import "./App.css";
 import Login from "./components/Auth/Login";
 import Protected from "./components/Auth/Protected";
 import Signup from "./components/Auth/Signup";
+import Vr from "./components/Blog/Vr";
 import AboutUs from "./components/Body/AboutUs";
 import Blog from "./components/Body/Blog";
 import Contactus from "./components/Body/Contactus";
@@ -29,6 +30,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/protected" element={<Protected />} />
+        <Route path="/vr" element={<Vr />} />
       </Routes>
     </div>
   );
