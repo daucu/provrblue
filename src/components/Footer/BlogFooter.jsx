@@ -21,34 +21,34 @@ function BlogFooter() {
         </div>
         <div className="md:w-[50%]">
           <div className="md:flex items-center justify-evenly">
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>
             </Link>
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>
             </Link>
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>
             </Link>
           </div>
           <div className="md:flex items-center justify-evenly">
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>
             </Link>
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>
             </Link>
-            <Link t="/">
+            <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
               </div>

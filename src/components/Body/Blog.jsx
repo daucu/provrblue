@@ -16,15 +16,15 @@ import f6 from "../Assets/Images/6.jpg";
 import Messages from "./Messages";
 import { Link } from "react-router-dom";
 function Blog() {
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
-  // useEffect(() => {
-  //   scrollToTop();
-  // }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-black">
       <div className="md:pb-40 pb-28">
