@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Assets/css/BlogHeader.css";
 import { BiHome } from "react-icons/bi";
 import { GrMenu } from "react-icons/gr";
+import { RxCross1 } from "react-icons/rx";
 
 function BlogHeader() {
+  const [active, setActive] = useState(false);
   return (
     <div className="fixed w-full top-0  bg-white border-b-2 p-4 shadow-md">
       <div className="maincont items-end justify-end">
@@ -23,10 +25,21 @@ function BlogHeader() {
           <BiHome size={25} />
         </div>
         <div>
-          <button>
+          <button onClick={() => setActive(true)}>
             <GrMenu size={25} />
           </button>
         </div>
+        {active == true ? (
+          <div className="fixed w-[200px] h-screen top-0 right-[-200px] p-4 drop-shadow-2xl  bg-white z-10 animate-slide_left">
+            <div className="flex text-black  justify-end">
+              <button onClick={() => setActive(false)}>
+                <RxCross1 size={25} />
+              </button>
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
