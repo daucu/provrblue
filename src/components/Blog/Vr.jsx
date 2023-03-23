@@ -6,15 +6,15 @@ import BlogHeader from "../Header/BlogHeader";
 import house from "../Assets/Images/house.jpg";
 import BlogFooter from "../Footer/BlogFooter";
 function Vr() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  useEffect(() => {
-    scrollToTop();
-  }, []);
+//   const scrollToTop = () => {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth",
+//     });
+//   };
+//   useEffect(() => {
+//     scrollToTop();
+//   }, []);
   return (
     <div className="bg-white">
       <div className="md:pb-20 bg-white ">
@@ -257,7 +257,7 @@ function Vr() {
               Are you on the list ?
             </div>
           </div>
-          <div className="flex items-center md:mt-8">
+          <div className="md:flex items-center md:mt-8 mt-4">
             <div className="md:w-[70%]  w-full">
               <input
                 className="w-full border bg-black p-4 text-[24px]"

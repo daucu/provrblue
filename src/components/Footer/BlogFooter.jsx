@@ -20,7 +20,7 @@ function BlogFooter() {
           </div>
         </div>
         <div className="md:w-[50%]">
-          <div className="md:flex items-center justify-evenly">
+          <div className="flex items-center justify-evenly">
             <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
@@ -37,7 +37,7 @@ function BlogFooter() {
               </div>
             </Link>
           </div>
-          <div className="md:flex items-center justify-evenly">
+          <div className="flex items-center justify-evenly">
             <Link to="/">
               <div className="font-semibold m-4 text-black text-[20px]">
                 Home
