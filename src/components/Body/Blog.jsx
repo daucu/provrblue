@@ -30,8 +30,8 @@ function Blog() {
         <Header />
       </div>
 
-      <div className="md:px-36 py-16 md:p-0 p-4 md:mt-0 mt-8  top-[-90px] relative   bg-[#47454526] ">
-        <div className="md:flex items-center justify-between">
+      <div className="md:px-36 py-16 md:p-0 p-4 md:mt-0 mt-8 top-[-80px]  relative   bg-[#47454526] ">
+        <div className="md:flex items-center  md:pt-16 justify-between">
           <div className="leftcont md:w-[40%] flex items-center  ">
             <div className="font-semibold text-white text-[18px]">Home</div>
             <div className="font-semibold text-white text-[16px] ml-2 mr-2">
@@ -96,14 +96,14 @@ function Blog() {
         </div>
         <div className=" relative">
           <div
-            className="min-h-[100vh] z-1 blur-[100px]	"
+            className="md:min-h-[100vh]   z-1 blur-[100px]	"
             style={{
               backgroundImage: `url(${blur1})`,
               backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div className="w-full absolute top-0 ">
-            <div className=" py-20 flex flex-col items-center lg:flex-row lg:items-stretch justify-center flex-wrap top-0">
+            <div className="  py-20 flex flex-col items-center lg:flex-row lg:items-stretch justify-center flex-wrap top-0">
               <div className="cursor-pointer m-auto max-w-[300px] lg:w-1/2 xl:w-1/4">
                 <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
                   <div className="h-[250px]">
