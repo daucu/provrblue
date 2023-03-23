@@ -1,0 +1,30 @@
+.maincont {
+  display: flex;
+}
+.mainitem {
+  width: 60%;
+}
+.itemcont {
+  width: 33%;
+}
+.menubtn {
+  display: none;
+}
+@media (max-width: 1120px) {
+  .mainitem {
+    width: 70%;
+  }
+  .itemcont {
+    width: 45%;
+  }
+}
+@media (max-width: 960px) {
+  .menubtn {
+    display: flex;
+    justify-content: end;
+  }
+  .maincont {
+    display: none;
+
+  }
+}
