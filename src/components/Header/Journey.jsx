@@ -39,9 +39,52 @@ function Journey() {
             <div className="text-[18px] hover:underline"> Journey</div>
           </Link>
         </div>
+        <div
+          className="font-semibold md:mt-8 mt-4 text-[black] md:text-[20px] "
+          style={{
+            // bgimage
+            backgroundImage: `url(${hands})`,
+            borderRadius: "10px",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div className="md:w-[60%] p-8 m-auto">
+            <div className="mt-12">
+              A story to unfold, with every twist and turn In the realm of
+              imagination, a journey yearned Where reality blends with fantasy
+              so free Generative storytelling, a tale to be.
+            </div>
 
+            <div className="mt-12">
+              With the power of AR/VR, the journey begins A new world to
+              explore, an experience to win A story, a journey, so dynamic and
+              true Blurring the lines, between me and you.
+            </div>
+
+            <div className="mt-12">
+              Generative AI, the mind to conceive The power to create, a story
+              to believe A tale that evolves, as we explore the land A world so
+              immersive, at our command.
+            </div>
+
+            <div className="mt-12">
+              Together they form, a union so grand Telling tales that are
+              unique, a story at hand Innovative storytelling, the future so
+              bright With AR/VR and Generative AI, a world of delight.
+            </div>
+
+            <div className="mt-12">
+              So let us embark, on this journey so grand With Generative
+              Storytelling and AR/VR at hand A world of imagination, a story to
+              unfold A journey so magical, a tale to be told.
+            </div>
+          </div>
+        </div>
         <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
-          Why 3D Floorplans Are a Game-Changer for Construction Business Agents?
+          Blurring the Lines: An Immersive Journey through Generative
+          Storytelling and AR/VR
         </div>
         <div className="md:flex md:mt-8 mt-4 items-center justify-evenly">
           <div className="md:w-[30%]">
