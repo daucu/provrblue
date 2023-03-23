@@ -85,6 +85,11 @@ function Blog() {
             </div>
             <div className="shrink-0 mx-2">
               <button className="btn bg-[#191919] hover:bg-[#4614B9] text-white font-semibold text-[17px]">
+                Journey
+              </button>
+            </div>
+            <div className="shrink-0 mx-2">
+              <button className="btn bg-[#191919] hover:bg-[#4614B9] text-white font-semibold text-[17px]">
                 Metaverse
               </button>
             </div>
