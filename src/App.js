@@ -14,6 +14,7 @@ import Metaverse from "./components/Body/Metaverse";
 import ProfilePage from "./components/Body/ProfilePage";
 import Spaces from "./components/Body/Spaces";
 import SuccessStories from "./components/Body/SuccessStories";
+import Journey from "./components/Header/Journey";
 axios.defaults.withCredentials = true;
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/protected" element={<Protected />} />
         <Route path="/vr" element={<Vr />} />
         <Route path="/metaverseblog" element={<MetaverseBlog />} />
+        <Route path="/journey" element={<Journey />} />
       </Routes>
     </div>
   );

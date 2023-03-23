@@ -24,6 +24,12 @@ function BlogHeader() {
           >
             Metaverse
           </NavLink>
+          <NavLink
+            to="/journey"
+            className="itemcont text-[20px] text-blue-500 "
+          >
+            Journey
+          </NavLink>
           <NavLink className="itemcont text-[20px] text-blue-500 ">
             Property Branding
           </NavLink>
