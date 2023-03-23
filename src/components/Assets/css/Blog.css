@@ -1,1 +1,20 @@
- 
+.rightcont {
+  width: 50%;
+  justify-content: space-evenly;
+}
+@media (max-width: 1120px) {
+  .leftcont {
+    display: none;
+  }
+  .rightcont {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.scroll::-webkit-scrollbar{
+    height: 6px;
+    background: transparent;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background: white;
+}
