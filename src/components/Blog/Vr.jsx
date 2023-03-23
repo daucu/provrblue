@@ -6,15 +6,15 @@ import BlogHeader from "../Header/BlogHeader";
 import house from "../Assets/Images/house.jpg";
 import BlogFooter from "../Footer/BlogFooter";
 function Vr() {
-  //   const scrollToTop = () => {
-  //     window.scrollTo({
-  //       top: 0,
-  //       behavior: "smooth",
-  //     });
-  //   };
-  //   useEffect(() => {
-  //     scrollToTop();
-  //   }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-white">
       <div className="md:pb-20 bg-white ">

@@ -4,6 +4,7 @@ import "./App.css";
 import Login from "./components/Auth/Login";
 import Protected from "./components/Auth/Protected";
 import Signup from "./components/Auth/Signup";
+import MetaverseBlog from "./components/Blog/MetaverseBlog";
 import Vr from "./components/Blog/Vr";
 import AboutUs from "./components/Body/AboutUs";
 import Blog from "./components/Body/Blog";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/protected" element={<Protected />} />
         <Route path="/vr" element={<Vr />} />
+        <Route path="/metaverseblog" element={<MetaverseBlog />} />
       </Routes>
     </div>
   );

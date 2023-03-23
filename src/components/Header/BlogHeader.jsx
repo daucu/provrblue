@@ -3,7 +3,7 @@ import "../Assets/css/BlogHeader.css";
 import { BiHome } from "react-icons/bi";
 import { GrMenu } from "react-icons/gr";
 import { RxCross1 } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function BlogHeader() {
   const [active, setActive] = useState(false);
@@ -11,14 +11,22 @@ function BlogHeader() {
     <div className="fixed w-full top-0  bg-white border-b-2 p-4 shadow-md">
       <div className="maincont items-end justify-end">
         <div className="mainitem  flex items-end ">
-          <div className="itemcont text-[20px] text-blue-500 ">Home</div>
-          <div className="itemcont text-[20px] text-blue-500 ">
+          <NavLink className="itemcont text-[20px] text-blue-500 ">
+            Home
+          </NavLink>
+
+          <NavLink to="/vr" className="itemcont text-[20px] text-blue-500 ">
             Virtual Reality
-          </div>
-          <div className="itemcont text-[20px] text-blue-500 ">Metaverse</div>
-          <div className="itemcont text-[20px] text-blue-500 ">
+          </NavLink>
+          <NavLink
+            to="/metaverseblog"
+            className="itemcont text-[20px] text-blue-500 "
+          >
+            Metaverse
+          </NavLink>
+          <NavLink className="itemcont text-[20px] text-blue-500 ">
             Property Branding
-          </div>
+          </NavLink>
         </div>
       </div>
       <div className="menubtn">
