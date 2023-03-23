@@ -156,7 +156,7 @@ function Header() {
           </div>
           <div>
             <button
-              className="menuBtn p-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
+              className="menuBtn p-2 mr-2 rounded-md bg-[#191D24] hover:bg-[#4614B9]"
               onClick={(e) => setActive(!active)}
             >
               <FiMenu className="text-white text-[20px] cursor-pointer" />
