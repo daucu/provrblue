@@ -176,6 +176,91 @@ function Vr() {
         <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
           Case Studies
         </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          Using ° aerial panoramas in virtual property tours is a great way to
+          give potential buyers an immersive experience of your listing. This
+          type of tour allows them to explore the property from every angle,
+          getting a feel for the layout and features that might not be
+          immediately apparent from ground level.
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          If you're thinking about using ° aerial panoramas in your next virtual
+          tour, check out these case studies to see how other real estate
+          professionals are using this technology to their advantage:
+        </div>
+        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
+          Case Study #1:
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          <b>
+            <i> Title</i>
+          </b>
+          : A New Way to Showcase Listings – 360° Aerial Panoramas
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          <b>
+            <i> The challenge</i>
+          </b>
+          : Showcasing a property in the best light possible online ̶without
+          clients having to be there in person ̶ can be difficult. Photos and
+          traditional video tours can only do so much. You want potential buyers
+          to be able to get a sense of the property and its surroundings, but
+          it's not always easy to convey that through conventional means.
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          <b>
+            <i>The solution</i>
+          </b>
+          : Enter 360° aerial panoramas. This type of tour gives viewers a
+          complete, 360-degree view of the property and its surroundings,
+          providing an immersive experience that helps them get a true sense of
+          what the listing has to offer. Not only does this help with generating
+          leads, but it can also speed up the sales process by giving buyers a
+          better understanding of the property before they even step foot on it.
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          <b>
+            <i>The result</i>
+          </b>
+          : Since implementing ° aerial panoramas into their marketing strategy,
+        </div>
+        <div className="font-extrabold text-black text-[30px] md:mt-16 mt-4]">
+          Conclusion
+        </div>
+        <div className="text-black font-normal md:mt-4 mt-2 md:text-[25px] text-[20px]">
+          360° aerial panoramas can be an incredibly powerful tool in your real
+          estate business. It is a great way to provide prospective buyers with
+          a realistic experience of the property before they make their decision
+          which makes the traditional sales process smoother, faster and more
+          efficient. When combined with other virtual tour elements such as 3D
+          models and interactive maps, 360° aerial panorama will elevate any
+          standard property tour and give you maximum returns on your
+          investment. Try it today to see how much of a difference it can make!
+        </div>
+        <div className="p-4 text-black text-center mt-6 text-[30px]">
+          * &nbsp; * &nbsp; * &nbsp;
+        </div>
+        <div className="bg-black p-8">
+          <div className="flex items-center">
+            <div className="font-bold text-white text-[25px]">Subscribe</div>
+            <div className="font-normal ml-6 text-white text-[14px]">
+              Are you on the list ?
+            </div>
+          </div>
+          <div className="flex items-center md:mt-8">
+            <div className="md:w-[70%]  w-full">
+              <input
+                className="w-full border bg-black p-4 text-[24px]"
+                placeholder="Enter Email... "
+              />
+            </div>
+            <div className="md:w-[30%]  w-full">
+              <button className="p-4 w-full text-center text-[24px] bg-white text-black border font-semibold ">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
