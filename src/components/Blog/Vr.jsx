@@ -260,12 +260,12 @@ function Vr() {
           <div className="md:flex items-center md:mt-8 mt-4">
             <div className="md:w-[70%]  w-full">
               <input
-                className="w-full border bg-black p-4 text-[24px]"
+                className="w-full border bg-black text-white p-2 text-[24px]"
                 placeholder="Enter Email... "
               />
             </div>
             <div className="md:w-[30%]  w-full">
-              <button className="p-4 w-full text-center text-[24px] bg-white text-black border font-semibold ">
+              <button className="p-2 w-full text-center text-[24px]  bg-white text-black border font-semibold ">
                 Subscribe
               </button>
             </div>

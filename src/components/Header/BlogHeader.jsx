@@ -40,24 +40,24 @@ function BlogHeader() {
               </button>
             </div>
             <div className="h-[5vh]"></div>
-            <div className="flex mt-2 flex-col justify-center ">
+            <div className="flex mt-4 flex-col justify-center ">
               <Link to="/">
                 <div className="text-[20px]  text-blue-500 ">Home</div>
               </Link>
             </div>
-            <div className="flex mt-6 flex-col justify-center ">
+            <div className="flex mt-4 flex-col justify-center ">
               <Link to="/">
                 <div className="text-[20px]  text-blue-500 ">
                   Virtual Reality
                 </div>
               </Link>
             </div>
-            <div className="flex mt-6 flex-col justify-center ">
+            <div className="flex mt-4 flex-col justify-center ">
               <Link to="/">
                 <div className="text-[20px]  text-blue-500 ">Metaverse</div>
               </Link>
             </div>
-            <div className="flex mt-6 flex-col justify-center ">
+            <div className="flex mt-4 flex-col justify-center ">
               <Link to="/">
                 <div className="text-[20px]  text-blue-500 ">
                   Property Branding

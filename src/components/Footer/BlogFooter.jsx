@@ -9,13 +9,13 @@ function BlogFooter() {
     <div className="bg-white md:px-16 mt-16">
       <div className="bg-white p-2 md:flex  items-center ">
         <div className="md:w-[50%] flex items-center justify-center">
-          <div className="w-[25px] h-[25px] m-4  flex items-center justify-center rounded-full  bg-[black]">
+          <div className="w-[25px] h-[25px] m-4  flex items-center justify-center rounded-full  bg-[black] text-white">
             <BsInstagram size={15} />
           </div>
-          <div className="w-[25px] h-[25px]  m-4 flex items-center justify-center rounded-full  bg-[black]">
+          <div className="w-[25px] h-[25px]  m-4 flex items-center justify-center rounded-full  bg-[black] text-white">
             <MdFacebook size={20} />
           </div>
-          <div className="w-[25px] h-[25px]  m-4 flex items-center justify-center rounded-full  bg-[black]">
+          <div className="w-[25px] h-[25px]  m-4 flex items-center justify-center rounded-full  bg-[black] text-white">
             <AiFillTwitterCircle size={19} />
           </div>
         </div>
