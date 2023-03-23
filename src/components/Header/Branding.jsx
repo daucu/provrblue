@@ -14,15 +14,15 @@ import cp2 from "../Assets/Images/cp2.png";
 import arc from "../Assets/Images/arc.jpg";
 import BlogFooter from "../Footer/BlogFooter";
 function Branding() {
-  //   const scrollToTop = () => {
-  //     window.scrollTo({
-  //       top: 0,
-  //       behavior: "smooth",
-  //     });
-  //   };
-  //   useEffect(() => {
-  //     scrollToTop();
-  //   }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="bg-white">
       <div className="md:pb-20 bg-white ">

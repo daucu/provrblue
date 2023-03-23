@@ -104,86 +104,96 @@ function Blog() {
             }}
           ></div>
           <div className="w-full absolute top-0 ">
-            <Link to="/vr">
-              <div className="  py-20 flex flex-col items-center lg:flex-row lg:items-stretch justify-center flex-wrap top-0">
-                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
-                  <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
-                    <div className="h-[250px]">
-                      <img src={f1} alt="" className="h-[100%]" />
-                    </div>
-                    <div className="grow">
-                      <div className="flex items-center  mt-8">
-                        <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
-                        <div className="font-normal ml-6 text-white text-[18px]">
-                          Virtual Reality
-                        </div>
+            <div className="  py-20 flex flex-col items-center lg:flex-row lg:items-stretch justify-center flex-wrap top-0">
+              <Link
+                to="/vr"
+                className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4"
+              >
+                <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
+                  <div className="h-[250px]">
+                    <img src={f1} alt="" className="h-[100%]" />
+                  </div>
+                  <div className="grow">
+                    <div className="flex items-center  mt-8">
+                      <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
+                      <div className="font-normal ml-6 text-white text-[18px]">
+                        Virtual Reality
                       </div>
                     </div>
-                    <div className=" text-white py-8 font-bold text-[20px]">
-                      Elevate Your Real Estate Game with 360° Aerial Panoramas
-                      in Virtual Property Tours
-                    </div>
+                  </div>
+                  <div className=" text-white py-8 font-bold text-[20px]">
+                    Elevate Your Real Estate Game with 360° Aerial Panoramas in
+                    Virtual Property Tours
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
-                  <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
-                    <div className="h-[250px]">
-                      <img src={f2} alt="" className="h-[100%]" />
-                    </div>
-                    <div className="grow">
-                      <div className="flex items-center  mt-8">
-                        <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
-                        <div className="font-normal ml-6 text-white text-[18px]">
-                          Metaverse
-                        </div>
+              </Link>
+              <Link
+                to="/metaverseblog"
+                className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4"
+              >
+                <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
+                  <div className="h-[250px]">
+                    <img src={f2} alt="" className="h-[100%]" />
+                  </div>
+                  <div className="grow">
+                    <div className="flex items-center  mt-8">
+                      <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
+                      <div className="font-normal ml-6 text-white text-[18px]">
+                        Metaverse
                       </div>
                     </div>
-                    <div className=" text-white py-8 font-bold text-[20px]">
-                      The Metaverse: An Introduction to the Next Dimension
-                      designing and developing the metaverse
-                    </div>
+                  </div>
+                  <div className=" text-white py-8 font-bold text-[20px]">
+                    The Metaverse: An Introduction to the Next Dimension
+                    designing and developing the metaverse
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
-                  <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
-                    <div className="h-[250px]">
-                      <img src={f3} alt="" className="h-[100%]" />
-                    </div>
-                    <div className="grow">
-                      <div className="flex items-center  mt-8">
-                        <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
-                        <div className="font-normal ml-6 text-white text-[18px]">
-                          Property Branding
-                        </div>
+              </Link>
+              <Link
+                to="/journey"
+                className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4"
+              >
+                <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
+                  <div className="h-[250px]">
+                    <img src={f3} alt="" className="h-[100%]" />
+                  </div>
+                  <div className="grow">
+                    <div className="flex items-center  mt-8">
+                      <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
+                      <div className="font-normal ml-6 text-white text-[18px]">
+                        Property Branding
                       </div>
                     </div>
-                    <div className=" text-white py-8 font-bold text-[20px]">
-                      Why 3D Floorplans Are a Game-Changer for Construction
-                      Business Agents?
-                    </div>
+                  </div>
+                  <div className=" text-white py-8 font-bold text-[20px]">
+                    Why 3D Floorplans Are a Game-Changer for Construction
+                    Business Agents?
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
-                  <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
-                    <div className="h-[250px] ">
-                      <img src={f4} alt="" className="h-[100%]" />
-                    </div>
-                    <div className="grow">
-                      <div className="flex items-center  mt-8">
-                        <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
-                        <div className="font-normal ml-6 text-white text-[18px]">
-                          Virtual Reality
-                        </div>
+              </Link>
+              <Link
+                to="/branding"
+                className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4"
+              >
+                <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
+                  <div className="h-[250px] ">
+                    <img src={f4} alt="" className="h-[100%]" />
+                  </div>
+                  <div className="grow">
+                    <div className="flex items-center  mt-8">
+                      <div className="w-[60px] h-[3px] bg-[#4614B9]"></div>
+                      <div className="font-normal ml-6 text-white text-[18px]">
+                        Virtual Reality
                       </div>
                     </div>
-                    <div className=" text-white py-8 font-bold text-[20px]">
-                      Elevate Your Real Estate Game with 360° Aerial Panoramas
-                      in Virtual Property Tours
-                    </div>
+                  </div>
+                  <div className=" text-white py-8 font-bold text-[20px]">
+                    Elevate Your Real Estate Game with 360° Aerial Panoramas in
+                    Virtual Property Tours
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
