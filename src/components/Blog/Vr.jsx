@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import BlogHeader from "../Header/BlogHeader";
 import house from "../Assets/Images/house.jpg";
+import BlogFooter from "../Footer/BlogFooter";
 function Vr() {
   return (
     <div className="bg-white">
@@ -262,6 +263,7 @@ function Vr() {
           </div>
         </div>
       </div>
+      <BlogFooter />
     </div>
   );
 }
