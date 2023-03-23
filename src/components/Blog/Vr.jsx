@@ -6,22 +6,22 @@ import BlogHeader from "../Header/BlogHeader";
 import house from "../Assets/Images/house.jpg";
 import BlogFooter from "../Footer/BlogFooter";
 function Vr() {
-//   const scrollToTop = () => {
-//     window.scrollTo({
-//       top: 0,
-//       behavior: "smooth",
-//     });
-//   };
-//   useEffect(() => {
-//     scrollToTop();
-//   }, []);
+  //   const scrollToTop = () => {
+  //     window.scrollTo({
+  //       top: 0,
+  //       behavior: "smooth",
+  //     });
+  //   };
+  //   useEffect(() => {
+  //     scrollToTop();
+  //   }, []);
   return (
     <div className="bg-white">
       <div className="md:pb-20 bg-white ">
         <BlogHeader />
       </div>
-      <div className="md:w-[45%] w-[90%] m-auto">
-        <div className="flex items-center">
+      <div className="md:w-[45%] bg-white pt-28 w-[90%] m-auto">
+        <div className="flex md:mt-0 items-center">
           <Link to="/">
             <div className="text-[18px] hover:underline">Neuratory</div>
           </Link>

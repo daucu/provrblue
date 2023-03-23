@@ -5,7 +5,7 @@ import { GrMenu } from "react-icons/gr";
 
 function BlogHeader() {
   return (
-    <div className="bg-white border-b-2 p-4 shadow-md">
+    <div className="fixed w-full top-0  bg-white border-b-2 p-4 shadow-md">
       <div className="maincont items-end justify-end">
         <div className="mainitem  flex items-end ">
           <div className="itemcont text-[20px] text-blue-500 ">Home</div>
