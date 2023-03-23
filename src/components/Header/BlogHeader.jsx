@@ -11,7 +11,7 @@ function BlogHeader() {
     <div className="fixed w-full top-0  bg-white border-b-2 p-4 shadow-md">
       <div className="maincont items-end justify-end">
         <div className="mainitem  flex items-end ">
-          <NavLink className="itemcont text-[20px] text-blue-500 ">
+          <NavLink to="/" className="itemcont text-[20px] text-blue-500 ">
             Home
           </NavLink>
 

@@ -97,7 +97,7 @@ function Blog() {
         </div>
         <div className=" relative">
           <div
-            className="md:min-h-[100vh]   z-1 blur-[100px]	"
+            className="md:min-h-[100vh] min-h-[300vh]  z-1 blur-[100px]	"
             style={{
               backgroundImage: `url(${blur1})`,
               backgroundRepeat: "no-repeat",
@@ -106,7 +106,7 @@ function Blog() {
           <div className="w-full absolute top-0 ">
             <Link to="/vr">
               <div className="  py-20 flex flex-col items-center lg:flex-row lg:items-stretch justify-center flex-wrap top-0">
-                <div className="cursor-pointer m-auto max-w-[300px] lg:w-1/2 xl:w-1/4">
+                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
                   <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
                     <div className="h-[250px]">
                       <img src={f1} alt="" className="h-[100%]" />
@@ -125,7 +125,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[300px] lg:w-1/2 xl:w-1/4">
+                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
                   <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
                     <div className="h-[250px]">
                       <img src={f2} alt="" className="h-[100%]" />
@@ -144,7 +144,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[300px] lg:w-1/2 xl:w-1/4">
+                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
                   <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
                     <div className="h-[250px]">
                       <img src={f3} alt="" className="h-[100%]" />
@@ -163,7 +163,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div className="cursor-pointer m-auto max-w-[300px] lg:w-1/2 xl:w-1/4">
+                <div className="cursor-pointer m-auto max-w-[330px] lg:w-1/2 xl:w-1/4">
                   <div className="m-3 bg-transparent p-[10px] border-2 min-h-full  border-r-[#471E6F] border-l-[#471E6F] border-t-[#205677] border-b-[#205677] flex flex-col justify-between">
                     <div className="h-[250px] ">
                       <img src={f4} alt="" className="h-[100%]" />
