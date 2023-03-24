@@ -210,7 +210,12 @@ function AboutUs() {
           <div className="md:mt-36 md:w-[1200px] w-[90%] m-auto mt-8">
             <div className="md:flex justify-between items-center ">
               <div className="md:w-[35%] h-[270px]  w-full">
-                <img src={Office} alt="" srcset="" className="w-[100%] h-[100%]  rounded-xl " />
+                <img
+                  src={Office}
+                  alt=""
+                  srcset=""
+                  className="w-[100%] h-[100%]  rounded-xl "
+                />
               </div>
               <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white text-justify md:text-[21px] text-[18px]">
                 Neuractory - where innovation meets AI! Our cutting-edge tech
@@ -221,10 +226,15 @@ function AboutUs() {
             </div>
             <div className="md:flex flex-row-reverse md:mt-16 mt-8 justify-between items-center ">
               <div className="md:w-[35%] h-[270px]  w-full">
-                <img src={Office} alt="" srcset="" className="w-[100%] h-[100%]  rounded-xl " />
+                <img
+                  src={Office}
+                  alt=""
+                  srcset=""
+                  className="w-[100%] h-[100%]  rounded-xl "
+                />
               </div>
               <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white text-justify md:text-[21px] text-[18px]">
-              We wrapped our technology into a solid AR development platform
+                We wrapped our technology into a solid AR development platform
                 and packaged it to make it accessible to all – brands and
                 end-users – so it reveals a seamless experience across millions
                 of devices. Today, our technology transforms the camera into a
@@ -233,7 +243,7 @@ function AboutUs() {
                 people to express themselves in the digital realm.
               </div>
             </div>
-            
+
             <div className="font-bold md:text-[35px] text-[25px] w-[100%] m-auto  text-white md:mt-32 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
