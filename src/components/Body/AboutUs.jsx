@@ -18,15 +18,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Header from "../Header/Header";
 import Messages from "./Messages";
 function AboutUs() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  useEffect(() => {
-    scrollToTop();
-  }, []);
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
+  // useEffect(() => {
+  //   scrollToTop();
+  // }, []);
   return (
     <>
       <div className="pb-36">
@@ -207,24 +207,24 @@ function AboutUs() {
               </div>
             </div>
           </div>
-          <div className="md:mt-36 mt-8">
+          <div className="md:mt-36 md:w-[1200px] w-[90%] m-auto mt-8">
             <div className="md:flex justify-between items-center ">
-              <div className="md:w-[30%] w-full">
-                <img src={Office} alt="" srcset="" className="w-full" />
+              <div className="md:w-[35%] h-[270px]  w-full">
+                <img src={Office} alt="" srcset="" className="w-[100%] h-[100%]  rounded-xl " />
               </div>
-              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white md:text-[20px] text-[18px]">
+              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white text-justify md:text-[21px] text-[18px]">
                 Neuractory - where innovation meets AI! Our cutting-edge tech
                 lab is paving the way for next-gen camera and web technology.
                 With expertise in augmented reality, machine learning, and
                 computer vision, we're redefining what's possible.
               </div>
             </div>
-            <div className="md:flex md:mt-24 mt-12 justify-between items-center ">
-              <div className="md:w-[30%] w-full">
-                <img src={vrr} alt="" srcset="" className="w-full" />
+            <div className="md:flex flex-row-reverse md:mt-16 mt-8 justify-between items-center ">
+              <div className="md:w-[35%] h-[270px]  w-full">
+                <img src={Office} alt="" srcset="" className="w-[100%] h-[100%]  rounded-xl " />
               </div>
-              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white md:text-[20px] text-[18px]">
-                We wrapped our technology into a solid AR development platform
+              <div className="md:w-[60%] md:mt-0 mt-4 w-full font-normal text-white text-justify md:text-[21px] text-[18px]">
+              We wrapped our technology into a solid AR development platform
                 and packaged it to make it accessible to all – brands and
                 end-users – so it reveals a seamless experience across millions
                 of devices. Today, our technology transforms the camera into a
@@ -233,6 +233,7 @@ function AboutUs() {
                 people to express themselves in the digital realm.
               </div>
             </div>
+            
             <div className="font-bold md:text-[25px] text-[20px] w-[85%] m-auto  text-white md:mt-24 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
