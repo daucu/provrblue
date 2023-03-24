@@ -93,7 +93,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="md:mt-32 mt-8">
-            <div className="text-white  font-semibold text-center text-[30px]  ">
+            <div className="text-white  font-semibold text-center md:text-[50px] text-[30px]  ">
               Our Team
             </div>
             <div className="md:mt-16 flex flex-wrap justify-around max-w-[1150px] w-[90%] m-auto mt-8">
@@ -197,7 +197,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="md:mt-32 mt-8">
-            <div className="text-white font-semibold text-center md:text-[30px] text-[20px]">
+            <div className="text-white font-semibold text-center md:text-[50px] text-[30px] ">
               Our Partners
             </div>
             <div className="  mt-6">
