@@ -147,10 +147,50 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Dhruvil1
+                    Manish Patadia
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
                     Chairman and Managing Director
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="md:mt-16 flex flex-wrap justify-around  max-w-[1150px] w-[90%] m-auto mt-8">
+              <div className="w-[300px]  md:mt-0 mt-24 ">
+                <div className="h-[400px]">
+                  <img
+                    src={Manoj1}
+                    alt=""
+                    className="h-[100%] w-[100%] rounded-[70px]"
+                    srcset=""
+                  />
+                </div>
+
+                <div className="p-4 text-center ">
+                  <div className="text-[25px] mt-1 font-semibold text-white">
+                    Milan Ranpara
+                  </div>
+                  <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
+                    CPO and Co-Founder
+                  </div>
+                </div>
+              </div>
+              <div className="w-[300px] md:mt-0 mt-24 ">
+                <div className="h-[400px]">
+                  <img
+                    src={dsd}
+                    alt=""
+                    className="h-[100%] w-[100%] rounded-[70px]"
+                    srcset=""
+                  />
+                </div>
+
+                <div className="p-4 text-center ">
+                  <div className="text-[25px] mt-1 font-semibold text-white">
+                    Manoj Ranpara
+                  </div>
+                  <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
+                    Co-Founder
                   </div>
                 </div>
               </div>
