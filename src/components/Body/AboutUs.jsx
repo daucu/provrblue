@@ -42,7 +42,7 @@ function AboutUs() {
               <h2 className="w-full font-bold lg:text-4xl text-3xl text-white lg:leading-10 leading-9">
                 The pioneer of Augmented Reality
               </h2>
-              <div className="w-[90%] m-auto  py-8 ">
+              <div className="w-[90%] m-auto  md:py-16 py-12 ">
                 <Swiper
                   spaceBetween={50}
                   slidesPerView={1}
