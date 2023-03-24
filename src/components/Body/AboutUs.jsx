@@ -196,7 +196,7 @@ function AboutUs() {
               </div>
             </div>
           </div>
-          <div className="md:mt-32 mt-8">
+          <div className="md:mt-36 py-6">
             <div className="text-white font-semibold text-center md:text-[50px] text-[30px] ">
               Our Partners
             </div>
@@ -234,10 +234,10 @@ function AboutUs() {
               </div>
             </div>
             
-            <div className="font-bold md:text-[35px] text-[20px] w-[85%] m-auto  text-white md:mt-32 mt-8 md:text-center text-justify">
+            <div className="font-bold md:text-[35px] text-[25px] w-[100%] m-auto  text-white md:mt-32 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
-            <div className="text-[#d7d7d7] text-[20px]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
+            <div className="text-[#d7d7d7] w-full text-[20px]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
               We are a dynamic team of marketers, hustlers, innovators, tech
               whizzes, and trailblazers revolutionizing the customer experience
               single lens at a go.
