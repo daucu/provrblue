@@ -234,16 +234,16 @@ function AboutUs() {
               </div>
             </div>
             
-            <div className="font-bold md:text-[25px] text-[20px] w-[85%] m-auto  text-white md:mt-24 mt-8 md:text-center text-justify">
+            <div className="font-bold md:text-[35px] text-[20px] w-[85%] m-auto  text-white md:mt-32 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
-            <div className="text-[#d7d7d7]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
+            <div className="text-[#d7d7d7] text-[20px]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
               We are a dynamic team of marketers, hustlers, innovators, tech
               whizzes, and trailblazers revolutionizing the customer experience
               single lens at a go.
             </div>
           </div>
-          <div className="">
+          <div className="mt-8">
             <Messages />
           </div>
         </div>
