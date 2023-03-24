@@ -138,7 +138,7 @@ function AboutUs() {
               <div className="w-[300px]  md:mt-0 mt-24">
                 <div className="h-[400px]">
                   <img
-                    src={Manish1}
+                    src={Drashty1}
                     alt=""
                     className="h-[100%] w-[100%] rounded-[70px]"
                     srcset=""
