@@ -109,10 +109,10 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Dhruvil Patadia
+                    Manish patadia
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    Co-Founder
+                    Chairman and Managing Director
                   </div>
                 </div>
               </div>
@@ -128,10 +128,10 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Drashty Ranpara
+                    Dhruvil Patadia
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    CEO and Founder
+                    Co-Founder
                   </div>
                 </div>
               </div>
@@ -147,10 +147,10 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Manish Patadia
+                    Drashty Ranpara
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    Chairman and Managing Director
+                    CEO and Founder
                   </div>
                 </div>
               </div>
@@ -168,10 +168,10 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Milan Ranpara
+                    Manoj Ranpara
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    CPO and Co-Founder
+                    Co-Founder
                   </div>
                 </div>
               </div>
@@ -187,16 +187,16 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Manoj Ranpara
+                    Milan Ranpara
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    Co-Founder
+                    CPO and Co-Founder
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="md:mt-36 py-6">
+          <div className="md:mt-36 md:py-12 py-28">
             <div className="text-white font-semibold text-center md:text-[50px] text-[30px] ">
               Our Partners
             </div>
@@ -247,7 +247,7 @@ function AboutUs() {
             <div className="font-bold md:text-[35px] text-[25px] w-[100%] m-auto  text-white md:mt-32 mt-8 md:text-center text-justify">
               Join our rowdy squad of creators
             </div>
-            <div className="text-[#d7d7d7] w-full text-[20px]  md:w-[70%] w-[90%] m-auto mt-4 md:text-center text-justify">
+            <div className="text-[#d7d7d7] w-full text-[20px]  md:w-[70%] m-auto mt-4 md:text-center text-justify">
               We are a dynamic team of marketers, hustlers, innovators, tech
               whizzes, and trailblazers revolutionizing the customer experience
               single lens at a go.
