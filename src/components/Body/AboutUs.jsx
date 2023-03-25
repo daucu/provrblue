@@ -131,7 +131,7 @@ function AboutUs() {
                     Dhruvil Patadia
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
-                    Co-Founder
+                    Finance Director and Vice President
                   </div>
                 </div>
               </div>

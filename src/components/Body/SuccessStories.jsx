@@ -28,10 +28,7 @@ function SuccessStories() {
       <Header />
       <div>
         <div dangerouslySetInnerHTML={{ __html: data }}>
-
         </div>
-
-
       </div>
       <div>
         <Messages />
