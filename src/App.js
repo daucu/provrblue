@@ -1,6 +1,7 @@
 import axios from "axios";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Parasmanii from "./components/AR_Projects/Parasmanii";
 import Login from "./components/Auth/Login";
 import Protected from "./components/Auth/Protected";
 import Signup from "./components/Auth/Signup";
@@ -38,6 +39,7 @@ function App() {
         <Route path="/metaverseblog" element={<MetaverseBlog />} />
         <Route path="/journey" element={<Journey />} />
         <Route path="/branding" element={<Branding />} />
+        <Route path="/parasmani" element={<Parasmanii />} />
       </Routes>
     </div>
   );

@@ -13,6 +13,7 @@ import p2a3 from "../Assets/Images/p2a3.jpg";
 import p2a4 from "../Assets/Images/p2a4.jpg";
 import p2a5 from "../Assets/Images/p2a5.jpg";
 import p2aa2 from "../Assets/Images/p2aa2.png";
+import { Link } from "react-router-dom";
 function SuccessStories() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -34,33 +35,36 @@ function SuccessStories() {
       <Header />
       <div>
         <div
-          className="relative h-[100vh]   w-full"
+          className="relative h-[100vh]  w-full  "
           dangerouslySetInnerHTML={{ __html: data }}
         ></div>
       </div>
-      <div className="  md:mt-24  ">
+      <div className="  md:mt-24  mt-[40vh] ">
         <div className="md:w-[80%] w-[95%] p-4 m-auto">
           <div className="font-bold text-[25px] md:text-[35px] text-white text-center">
             Case Studies
           </div>
           <div className="flex my-12 flex-wrap justify-around items-center  ">
-            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
-              <div
-                className="flex items-end justify-center"
-                style={{
-                  backgroundImage: `url(${p21})`,
-                  backgroundSize: "cover",
-                  padding: "30px",
-                  height: "300px",
-                  width: "300px",
-                  borderRadius: "10px",
-                }}
-              >
-                <div className="font-bold text-white text-[25px] ">
-                  Parasmani 2
+            <Link to="/parasmani">
+              <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+                <div
+                  className="flex items-end justify-center"
+                  style={{
+                    backgroundImage: `url(${p21})`,
+                    backgroundSize: "cover",
+                    padding: "30px",
+                    height: "300px",
+                    width: "300px",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <div className="font-bold text-white text-[25px] ">
+                    Parasmani 2
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
+
             <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
               <div
                 className="flex items-end justify-center"
