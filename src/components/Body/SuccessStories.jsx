@@ -14,39 +14,24 @@ function SuccessStories() {
       behavior: "smooth",
     });
   };
+
+  const data = `<div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0vmin;color:#777777;font-size:1.23vmin;font-family:Arial, Helvetica, sans-serif;">Loading virtual tour. Please wait...</SPAN></DIV><p STYLE="margin:0; line-height:1.01vmin;"><BR STYLE="letter-spacing:0vmin;color:#000000;font-size:1.01vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
+    <div id="viewer"></div>`;
+
   useEffect(() => {
-    scrollToTop();
+    // scrollToTop();
+    window.oncallload();
   }, []);
+  const data2 = ``;
   return (
-    <div>
+    <div >
       <Header />
       <div>
-        {/* add video  */}
-        <div className="flex justify-center items-center">
-          <video
-            src={walk3}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-[100%] h-[100vh] object-cover"
-          />
-          {/*  add button on the video  */}
-          <div className="absolute flex items-center bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <AiOutlinePlus className=" text-black " />
-            </button>
-            <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <AiOutlineMinus className=" text-black " />
-            </button>
-            <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <TfiReload className=" text-black " />
-            </button>
-            <button className="bg-[#a5a4a3] border-2 border-black p-2 m-2 rounded-full">
-              <MdPhotoSizeSelectLarge className=" text-black " />
-            </button>
-          </div>
+        <div dangerouslySetInnerHTML={{ __html: data }}>
+
         </div>
+
+
       </div>
       <div>
         <Messages />

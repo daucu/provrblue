@@ -91,6 +91,9 @@ function Header() {
             </NavLink>
             <NavLink
               to="/stories"
+              onClick={() => {
+                window.location.href = "/stories";
+              }}
               className={({ isActive }) =>
                 isActive ? "border-b-[3px] border-[#4614B9]" : ""
               }

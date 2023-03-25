@@ -16,6 +16,7 @@ import Spaces from "./components/Body/Spaces";
 import SuccessStories from "./components/Body/SuccessStories";
 import Branding from "./components/Header/Branding";
 import Journey from "./components/Header/Journey";
+
 axios.defaults.withCredentials = true;
 
 function App() {
