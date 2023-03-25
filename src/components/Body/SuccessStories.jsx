@@ -6,7 +6,13 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { TfiReload } from "react-icons/tfi";
 import { MdPhotoSizeSelectLarge } from "react-icons/md";
 import Messages from "./Messages";
-
+import p21 from "../Assets/Images/p2a1.png";
+import p2aa1 from "../Assets/Images/p2aa1.jpg";
+import p2a2 from "../Assets/Images/p2a2.jpg";
+import p2a3 from "../Assets/Images/p2a3.jpg";
+import p2a4 from "../Assets/Images/p2a4.jpg";
+import p2a5 from "../Assets/Images/p2a5.jpg";
+import p2aa2 from "../Assets/Images/p2aa2.png";
 function SuccessStories() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -24,10 +30,117 @@ function SuccessStories() {
   }, []);
   const data2 = ``;
   return (
-    <div >
+    <div className="flex flex-col justify-between">
       <Header />
       <div>
-        <div dangerouslySetInnerHTML={{ __html: data }}>
+        <div
+          className="relative h-[100vh]   w-full"
+          dangerouslySetInnerHTML={{ __html: data }}
+        ></div>
+      </div>
+      <div className="  md:mt-24  ">
+        <div className="md:w-[80%] w-[95%] p-4 m-auto">
+          <div className="font-bold text-[25px] md:text-[35px] text-white text-center">
+            Case Studies
+          </div>
+          <div className="flex my-12 flex-wrap justify-around items-center  ">
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p21})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">
+                  Parasmani 2
+                </div>
+              </div>
+            </div>
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p2aa1})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">
+                  Showroom
+                </div>
+              </div>
+            </div>
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p2a2})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">Saloon</div>
+              </div>
+            </div>
+          </div>
+          <div className="flex my-12 flex-wrap justify-around items-center  ">
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p2a3})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">Shoe's</div>
+              </div>
+            </div>
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p2a4})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">Bedroom</div>
+              </div>
+            </div>
+            <div className="max-h-[300px] w-[300px] m-4 cursor-pointer  ">
+              <div
+                className="flex items-end justify-center"
+                style={{
+                  backgroundImage: `url(${p2a5})`,
+                  backgroundSize: "cover",
+                  padding: "30px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10px",
+                }}
+              >
+                <div className="font-bold text-white text-[25px] ">Terrace</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div>
