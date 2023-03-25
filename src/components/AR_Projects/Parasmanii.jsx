@@ -15,7 +15,7 @@ function Parasmanii() {
       <div className=" m-auto p-4">
         <div className="md:w-[80%] w-[90%] m-auto">
           <div className="font-bold md:text-[35px] text-[25px] text-center text-white">
-            VR Tour
+            VR Tour (<i> Parasmani 2</i>)
           </div>
           <div className="md:mt-12 mt-8 ">
             <img src={im} alt="" className="w-[80%] m-auto rounded-md" />
