@@ -109,7 +109,7 @@ function AboutUs() {
 
                 <div className="p-4 text-center ">
                   <div className="text-[25px] mt-1 font-semibold text-white">
-                    Manish patadia
+                    Manish Patadia
                   </div>
                   <div className="text-[#d7d7d7] mt-2 font-normal text-[17px]">
                     Chairman and Managing Director
