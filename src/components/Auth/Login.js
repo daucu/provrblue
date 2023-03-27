@@ -36,6 +36,10 @@ function Login() {
     });
   // axios post request fuction for login
   async function PostLogin() {
+    if (email === "" || password === "") {
+      toast.error("Please fill all the fields");
+      return;
+    }
     const response = await axios
       .post(
         `${API}/login`,

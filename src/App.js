@@ -17,7 +17,8 @@ import Spaces from "./components/Body/Spaces";
 import SuccessStories from "./components/Body/SuccessStories";
 import Branding from "./components/Header/Branding";
 import Journey from "./components/Header/Journey";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 axios.defaults.withCredentials = true;
 
 function App() {
@@ -41,6 +42,18 @@ function App() {
         <Route path="/branding" element={<Branding />} />
         <Route path="/parasmani" element={<Parasmanii />} />
       </Routes>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 }
