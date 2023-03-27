@@ -22,13 +22,14 @@ function Contactus() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [message, setMessage] = useState("");
-
+  const [phonenumber, setPhonenumber] = useState("");
   const handleSubmit = (e) => {
     if (
       name === "" ||
       email === "" ||
       date === "" ||
       time === "" ||
+      phonenumber === "" ||
       message === ""
     ) {
       toast.error("Please fill all the fields");
@@ -39,6 +40,7 @@ function Contactus() {
           email,
           date,
           time,
+          phonenumber,
           message,
         })
         .then((res) => {
@@ -48,6 +50,7 @@ function Contactus() {
           setEmail("");
           setDate("");
           setTime("");
+          setPhonenumber("");
           setMessage("");
         })
         .catch((err) => {
@@ -106,6 +109,17 @@ function Contactus() {
                 type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+            <div className="mt-8">
+              <span className="uppercase text-sm text-white font-bold">
+                Phone Number
+              </span>
+              <input
+                className=" w-full bg-gray-400 text-black  font-bold mt-2 p-3 rounded-none focus:outline-none focus:shadow-outline"
+                type="text"
+                value={phonenumber}
+                onChange={(e) => setPhonenumber(e.target.value)}
               />
             </div>
             <div className="mt-8">

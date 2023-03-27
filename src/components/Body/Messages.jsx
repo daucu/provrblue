@@ -1,7 +1,54 @@
-import React from "react";
+import axios from "axios";
+import React, { useState } from "react";
+import { toast } from "react-toastify";
 import dot2 from "../Assets/Images/dot2.webp";
+import { API } from "../Constant/API";
 
 function Messages() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+  const [message, setMessage] = useState("");
+  const [phonenumber, setPhonenumber] = useState("");
+
+  const handleSubmit = (e) => {
+    if (
+      name === "" ||
+      email === "" ||
+      date === "" ||
+      time === "" ||
+      phonenumber === "" ||
+      message === ""
+    ) {
+      toast.error("Please fill all the fields");
+    } else {
+      axios
+        .post(`${API}/contactus`, {
+          name,
+          email,
+          date,
+          time,
+          phonenumber,
+          message,
+        })
+        .then((res) => {
+          console.log(res);
+          toast.success("Message sent successfully");
+          setName("");
+          setEmail("");
+          setDate("");
+          setTime("");
+          setPhonenumber("");
+          setMessage("");
+        })
+        .catch((err) => {
+          console.log(err);
+          toast.error("Something went wrong");
+        });
+    }
+  };
+
   return (
     <div className="">
       <div
@@ -42,19 +89,21 @@ function Messages() {
                         name=""
                         id=""
                         className="input input-bordered w-full rounded-none  bg-[#191919] "
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                       />
                     </div>
                   </div>
                   <div className="w-[50%] ml-8  ">
-                    <div className="text-white font-semibold mb-1">
-                      Last name
-                    </div>
+                    <div className="text-white font-semibold mb-1">Email</div>
                     <div>
                       <input
                         type="text"
                         name=""
                         id=""
                         className="input input-bordered w-full rounded-none   bg-[#191919] "
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
                   </div>
@@ -70,19 +119,38 @@ function Messages() {
                         name=""
                         id=""
                         className="input input-bordered w-full rounded-none  bg-[#191919] "
+                        value={phonenumber}
+                        onChange={(e) => setPhonenumber(e.target.value)}
                       />
                     </div>
                   </div>
                 </div>
                 <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
                   <div className="w-full   ">
-                    <div className="text-white font-semibold mb-1">Email</div>
+                    <div className="text-white font-semibold mb-1">Time</div>
                     <div>
                       <input
-                        type="text"
+                        type="date"
                         name=""
                         id=""
                         className="input input-bordered w-full rounded-none  bg-[#191919] "
+                        value={date}
+                        onChange={(e) => setDate(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex md:w-[90%] w-full  m-auto pt-8 justify-start">
+                  <div className="w-full   ">
+                    <div className="text-white font-semibold mb-1">Time</div>
+                    <div>
+                      <input
+                        type="time"
+                        name=""
+                        id=""
+                        className="input input-bordered w-full rounded-none  bg-[#191919] "
+                        value={time}
+                        onChange={(e) => setTime(e.target.value)}
                       />
                     </div>
                   </div>
@@ -96,13 +164,18 @@ function Messages() {
                         name=""
                         rows={5}
                         id=""
-                        className="rounded-md input-bordered w-full  bg-[#191919] "
+                        className=" p-2 font-semibold text-[20px] input-bordered w-full  bg-[#191919] "
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                       />
                     </div>
                   </div>
                 </div>
                 <div className="flex w-[90%]  md:m-auto  justify-start">
-                  <button className="btn btn-primary mt-8 font-semibold text-[17px]">
+                  <button
+                    onClick={handleSubmit}
+                    className="btn btn-primary mt-8 font-semibold text-[17px]"
+                  >
                     Send Message
                   </button>
                 </div>
