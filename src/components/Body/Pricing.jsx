@@ -298,7 +298,7 @@ function Pricing() {
                   className="uppercase tracking-widest font-extralight"
                   data-v-123669ee=""
                 >
-                  Essential
+                  Advanced
                 </h6>
                 <div
                   className="flex flex-col m-auto w-fit mt-8"
