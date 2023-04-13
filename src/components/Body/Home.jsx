@@ -31,9 +31,7 @@ function Home() {
       <div>
         <OurProducts />
       </div>
-      <div>
-        <Sparks />
-      </div>
+      
       <div>
         <Pricing />
       </div>
