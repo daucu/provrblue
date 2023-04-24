@@ -17,21 +17,29 @@ function Footer() {
           </div>
           <div className="flex mt-4 items-center ">
             <div className="m-2">
-              <button className="bg-[#191D24] p-2 rounded-md">
+              <button className="bg-[#191D24] p-2 rounded-md" onClick={
+                ()=>window.open("https://www.instagram.com/neuractory/")
+              }>
                 <BsInstagram size={20} className="text-white" />
               </button>
             </div>
             <div className="m-2">
-              <button className="bg-[#191D24] p-2 rounded-md">
+              <button className="bg-[#191D24] p-2 rounded-md" onClick={
+                ()=>window.open("https://www.linkedin.com/company/neuractory/")
+              }>
                 <BsLinkedin size={20} className="text-white" />
               </button>
             </div>
             <div className="m-2">
-              <button className="bg-[#191D24] p-2 rounded-md">
+              <button className="bg-[#191D24] p-2 rounded-md" onClick={
+                ()=>window.open("https://twitter.com/neuractory")
+              }>
                 <BsTwitter size={20} className="text-white" />
               </button>
             </div>
-            <div className="m-2">
+            <div className="m-2" onClick={
+                ()=>window.open("https://www.youtube.com/channel/UCcMmR8mNV3VMwGrcnZqEcpA")
+            }>
               <button className="bg-[#191D24] p-2 rounded-md">
                 <BsYoutube size={20} className="text-white" />
               </button>
