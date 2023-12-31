@@ -92,7 +92,7 @@ function AboutUs() {
               </p>
             </div>
           </div>
-          <div className="md:mt-32 mt-8">
+{/*           <div className="md:mt-32 mt-8">
             <div className="text-white  font-semibold text-center md:text-[50px] text-[30px]  ">
               Our Team
             </div>
@@ -195,7 +195,7 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="md:mt-36 md:py-12 py-28">
             <div className="text-white font-semibold text-center md:text-[50px] text-[30px] ">
               Our Partners
